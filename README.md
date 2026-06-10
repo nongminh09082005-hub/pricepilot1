@@ -8,11 +8,11 @@ G06
 
 | Họ tên         | Mã sinh viên | Vai trò chính                                                          |
 | -------------- | ------------ | ---------------------------------------------------------------------- |
-| [Đỗ Thị Quỳnh Anh] | [2313380004]       | Economic Logic & Pricing Model   |
-| Trần Hà Dương | [MSSV]       | Data & Input  |
-| [Nguyễn Mai Anh] | [MSSV]       | Monte Carlo Simulation |
-| Đàm Ngọc Hà Phương      | [MSSV]       | Xây dựng recommendation logic, strategy engine và personalized insight |
-| [Nông Đức Minh] | [2312380020]       | Web & Result Display |
+| Đỗ Thị Quỳnh Anh | 2313380004       | Economic Logic & Pricing Model   |
+| Trần Hà Dương | MSSV       | Data & Input  |
+| Nguyễn Mai Anh |        | Monte Carlo Simulation |
+| Đàm Ngọc Hà Phương      | MSSV | Advisory Logic & Strategy Engine|
+| Nông Đức Minh | 2312380020       | Web & Result Display |
 
 ## Mô tả ngắn về sản phẩm
 
@@ -68,7 +68,7 @@ Trong buổi thi cuối kỳ, nhóm có thể ưu tiên demo bằng link online.
 1. Mở link demo của sản phẩm:
 
 ```text
-[Điền link Render/demo của nhóm vào đây]
+https://pricepilot123.onrender.com/
 ```
 
 2. Nếu app được deploy bằng Render free service, lần mở đầu có thể mất khoảng 30–60 giây do server cần khởi động lại.
