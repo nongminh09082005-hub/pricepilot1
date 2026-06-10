@@ -34,15 +34,12 @@ Người dùng sử dụng sản phẩm khi muốn kiểm tra một mức tăng 
 
 ## Tính năng chính
 
-* Tính cost per order và base price dựa trên target margin.
-* Tính historical price elasticity từ dữ liệu giá bán và demand trong quá khứ.
-* Nhập các khoảng bất định của thị trường như market growth, customer budget pressure, material shock impact và material inflation.
-* Chạy Monte Carlo simulation cho nhiều mức tăng giá khác nhau.
-* Hiển thị dashboard kết quả gồm expected profit, profit improvement, average demand, demand loss và probability of lower profit.
-* So sánh ba chiến lược giá: Aggressive, Balanced và Conservative.
-* Hiển thị biểu đồ Profit vs. Price Increase và Demand vs. Price Increase.
-* Cho phép xem Monte Carlo Profit Distribution theo từng mức tăng giá.
-* Tạo Personalized Detailed Insight dựa trên input và kết quả simulation của từng doanh nghiệp.
+- Tính toán cost structure, cost per order, base price và current profit của doanh nghiệp.
+- Ước tính historical price elasticity từ dữ liệu giá bán và demand trong quá khứ.
+- Áp dụng Monte Carlo simulation để mô phỏng profit, demand và risk ở nhiều mức tăng giá khác nhau.
+- So sánh các kịch bản tăng giá và đề xuất ba chiến lược: Aggressive, Balanced và Conservative.
+- Hiển thị dashboard kết quả gồm expected profit, demand loss, downside risk, biểu đồ phân tích và Monte Carlo Profit Distribution.
+- Tạo recommendation và Personalized Detailed Insight dựa trên input và kết quả mô phỏng của từng doanh nghiệp.
 
 ## Cách mở hoặc chạy sản phẩm
 
