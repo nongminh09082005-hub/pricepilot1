@@ -28,14 +28,7 @@ PricePilot giải quyết vấn đề này bằng cách biến quyết định t
 
 ## Người dùng mục tiêu
 
-Người dùng chính của sản phẩm là:
-
-* doanh nghiệp cơ khí vừa và nhỏ;
-* xưởng gia công cơ khí;
-* chủ doanh nghiệp;
-* quản lý sản xuất;
-* nhân sự tài chính hoặc pricing;
-* nhóm cần đánh giá tác động của việc tăng giá bán đến profit và demand.
+Người dùng chính của sản phẩm là: các doanh nghiệp vừa và nhỏ về lĩnh vực gia công cơ khi
 
 Người dùng sử dụng sản phẩm khi muốn kiểm tra một mức tăng giá có hợp lý hay không, hoặc khi muốn so sánh nhiều kịch bản tăng giá trong điều kiện thị trường bất định.
 
