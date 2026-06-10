@@ -8,11 +8,11 @@ G06
 
 | Họ tên         | Mã sinh viên | Vai trò chính                                                          |
 | -------------- | ------------ | ---------------------------------------------------------------------- |
-| [Thành viên 1] | [MSSV]       | Thiết kế giao diện frontend, trang nhập liệu, trải nghiệm người dùng   |
-| [Thành viên 2] | [MSSV]       | Xây dựng mô hình chi phí, cost-based pricing, logic baseline           |
-| [Thành viên 3] | [MSSV]       | Xây dựng elasticity model và Monte Carlo simulation                    |
-| Hà Phương      | [MSSV]       | Xây dựng recommendation logic, strategy engine và personalized insight |
-| [Thành viên 5] | [MSSV]       | Kiểm thử, viết tài liệu, GitHub README, deployment                     |
+| [Đỗ Thị Quỳnh ANh] | [2313380004]       | Economic Logic & Pricing Model   |
+| Trần Hà Dương | [MSSV]       | Data & Input  |
+| [Nguyễn Mai Anh] | [MSSV]       | Monte Carlo Simulation |
+| Đàm Ngọc Hà Phương      | [MSSV]       | Xây dựng recommendation logic, strategy engine và personalized insight |
+| [Nông Đức Minh] | [2312380020]       | Web & Result Display |
 
 ## Mô tả ngắn về sản phẩm
 
