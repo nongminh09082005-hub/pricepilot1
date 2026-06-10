@@ -59,9 +59,6 @@ Có hai cách để mở hoặc chạy sản phẩm:
 1. Mở trực tiếp bằng link demo.
 2. Chạy local trên máy tính bằng Python.
 
-Trong buổi thi cuối kỳ, nhóm có thể ưu tiên demo bằng link online. Nếu link online bị chậm hoặc không mở được, nhóm có thể chạy local trực tiếp từ repo theo hướng dẫn bên dưới.
-
----
 
 ## Cách 1: Mở bằng link demo
 
