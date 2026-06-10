@@ -68,9 +68,9 @@ Có hai cách để mở hoặc chạy sản phẩm:
 https://pricepilot123.onrender.com/
 ```
 
-2. Nếu app được deploy bằng Render free service, lần mở đầu có thể mất khoảng 30–60 giây do server cần khởi động lại.
+2. Web được deploy bằng Render free service, lần mở đầu có thể mất khoảng 30–60 giây do server cần khởi động lại.
 3. Khi trang intro của PricePilot hiện ra, bấm **Start**.
-4. Ở trang input, có thể giữ dữ liệu mẫu hoặc nhập dữ liệu mới.
+4. Ở trang input, khách hàng nhập dữ liệu input mong muốn.
 5. Điều chỉnh các thông số:
 
    * material type;
