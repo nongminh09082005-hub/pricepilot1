@@ -167,7 +167,7 @@ py -m pip install -r requirements.txt
 Kiểm tra terminal xem Flask app còn đang chạy không. Nếu terminal đã bị đóng, chạy lại:
 
 ```bash
-python final_pricepilot_3.py
+python pricepilot.py
 ```
 
 hoặc đúng tên file Python chính của nhóm.
