@@ -1,6 +1,6 @@
-Individual Footprint
+**Individual Footprint**
 
-Thành viên: Dương – 2312380005
+**Thành viên: Dương – 2312380005**
 
 **1. Vai trò trong dự án**
    
