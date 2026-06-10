@@ -93,25 +93,25 @@ https://pricepilot123.onrender.com/
 
 Nếu không dùng link demo online, người dùng có thể tải repo về máy và chạy trực tiếp bằng Python.
 
-### Bước 1: Tải code từ GitHub
+1. Tải code từ GitHub 
 
 Vào repo nhóm G06 trên GitHub, bấm nút **Code**, chọn **Download ZIP**, sau đó giải nén file ZIP vào một thư mục trên máy. Ví dụ có thể giải nén vào thư mục `C:\Users\YourName\Desktop\G06`.
 
 Nếu dùng Git, có thể chạy lệnh `git clone https://github.com/FTU-Legacy-62/G06.git`, sau đó vào thư mục project bằng lệnh `cd G06`.
 
-### Bước 2: Kiểm tra Python
+2. Kiểm tra Python
 
 Mở Command Prompt hoặc Terminal và chạy lệnh `python --version`. Nếu dùng Windows mà lệnh này không chạy, có thể thử `py --version`.
 
 Nếu máy chưa có Python, cần cài Python 3 trước. Khi cài Python trên Windows, nên chọn mục **Add Python to PATH** để có thể chạy Python từ Command Prompt.
 
-### Bước 3: Kiểm tra các file trong repo
+3. Kiểm tra các file trong repo
 
 Sau khi tải repo về máy, thư mục project cần có các file chính như `pricepilot.py`, `requirements.txt`, `README.md`, `GROUP_FOOTPRINT.md` và `INDIVIDUAL_FOOTPRINT.md`.
 
 Trong đó, `pricepilot.py` là file chính để chạy web app. File `requirements.txt` là file liệt kê các thư viện Python cần thiết để app hoạt động.
 
-### Bước 4: Cài thư viện cần thiết
+4. Cài thư viện cần thiết
 
 Trong thư mục chứa file `pricepilot.py`, chạy lệnh `pip install -r requirements.txt` để cài thư viện.
 
@@ -119,13 +119,13 @@ Nếu Windows không nhận lệnh `pip`, có thể dùng lệnh `py -m pip inst
 
 Các thư viện chính trong `requirements.txt` gồm Flask, pandas, numpy, plotly và gunicorn. Flask dùng để tạo web app, pandas và numpy dùng để xử lý dữ liệu và tính toán simulation, plotly dùng để hiển thị biểu đồ, còn gunicorn dùng khi deploy app lên Render.
 
-### Bước 5: Chạy ứng dụng
+5. Chạy ứng dụng
 
 Sau khi cài xong thư viện, chạy app bằng lệnh `python pricepilot.py`. Nếu dùng Windows và lệnh `python` không chạy, có thể dùng `py pricepilot.py`.
 
 Khi chạy thành công, terminal sẽ hiện đường link local, thường là `http://127.0.0.1:5000`.
 
-### Bước 6: Mở app trên trình duyệt
+6. Mở app trên trình duyệt
 
 Mở Chrome, Edge hoặc trình duyệt bất kỳ, sau đó truy cập `http://127.0.0.1:5000`.
 
