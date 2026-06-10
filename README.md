@@ -34,7 +34,6 @@ Người dùng sử dụng sản phẩm khi muốn kiểm tra một mức tăng 
 
 ## Tính năng chính
 
-* Nhập dữ liệu chi phí sản xuất hằng tháng, bao gồm nguyên vật liệu, nhân công, điện/nước/thuê mặt bằng, bảo trì và khấu hao máy móc.
 * Tính cost per order và base price dựa trên target margin.
 * Tính historical price elasticity từ dữ liệu giá bán và demand trong quá khứ.
 * Nhập các khoảng bất định của thị trường như market growth, customer budget pressure, material shock impact và material inflation.
