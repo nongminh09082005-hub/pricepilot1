@@ -1,7 +1,5 @@
 # PricePilot
 
-PricePilot là công cụ mô phỏng và hỗ trợ ra quyết định tăng giá bán cho doanh nghiệp cơ khí vừa và nhỏ.
-
 ## Mã nhóm
 
 G06
