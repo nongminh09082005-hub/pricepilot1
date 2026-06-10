@@ -9,9 +9,9 @@ G06
 | Họ tên         | Mã sinh viên | Vai trò chính                                                          |
 | -------------- | ------------ | ---------------------------------------------------------------------- |
 | Đỗ Thị Quỳnh Anh | 2313380004       | Economic Logic & Pricing Model   |
-| Trần Hà Dương | MSSV       | Data & Input  |
-| Nguyễn Mai Anh |        | Monte Carlo Simulation |
-| Đàm Ngọc Hà Phương      | MSSV | Advisory Logic & Strategy Engine|
+| Trần Hà Dương | 2312380005 | Data & Input  |
+| Nguyễn Mai Anh | 2313380002 | Monte Carlo Simulation |
+| Đàm Ngọc Hà Phương      | 2313380028 | Advisory Logic & Strategy Engine|
 | Nông Đức Minh | 2312380020       | Web & Result Display |
 
 ## Mô tả ngắn về sản phẩm
