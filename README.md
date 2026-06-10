@@ -20,7 +20,7 @@ PricePilot là một web app hỗ trợ doanh nghiệp cơ khí vừa và nhỏ 
 
 ## Vấn đề sản phẩm giải quyết
 
-Các doanh nghiệp cơ khí SME thường gặp khó khăn khi quyết định có nên tăng giá bán hay không. Nếu tăng giá quá thấp, doanh nghiệp có thể không cải thiện được lợi nhuận. Nếu tăng giá quá cao, khách hàng có thể giảm đơn hàng, trì hoãn đơn hàng hoặc chuyển sang nhà cung cấp khác.
+Trong bối cảnh giá nguyên vật liệu đầu vào biến động, các doanh nghiệp cơ khí SME thường gặp khó khăn khi quyết định có nên tăng giá bán hay không. Nếu tăng giá quá thấp, doanh nghiệp có thể không cải thiện được lợi nhuận. Nếu tăng giá quá cao, khách hàng có thể giảm đơn hàng, trì hoãn đơn hàng hoặc chuyển sang nhà cung cấp khác.
 
 Vấn đề này đặc biệt quan trọng vì quyết định giá bán ảnh hưởng trực tiếp đến lợi nhuận, số lượng đơn hàng, khả năng giữ chân khách hàng và năng lực cạnh tranh của doanh nghiệp. Trong thực tế, nhiều doanh nghiệp nhỏ chưa có công cụ định lượng đơn giản để so sánh giữa lợi nhuận tăng thêm và rủi ro mất demand.
 
@@ -28,7 +28,7 @@ PricePilot giải quyết vấn đề này bằng cách biến quyết định t
 
 ## Người dùng mục tiêu
 
-Người dùng chính của sản phẩm là: các doanh nghiệp vừa và nhỏ về lĩnh vực gia công cơ khi
+Người dùng chính của sản phẩm là: các doanh nghiệp vừa và nhỏ về lĩnh vực gia công cơ khí
 
 Người dùng sử dụng sản phẩm khi muốn kiểm tra một mức tăng giá có hợp lý hay không, hoặc khi muốn so sánh nhiều kịch bản tăng giá trong điều kiện thị trường bất định.
 
