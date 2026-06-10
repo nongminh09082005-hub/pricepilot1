@@ -186,50 +186,7 @@ Nếu port 5000 đang bị dùng bởi một app khác, hãy tắt terminal cũ 
 
 ---
 
-### Lỗi 4: Render báo lỗi sai Start Command
 
-Nếu deploy trên Render, Start Command phải đúng với tên file Python.
-
-Ví dụ nếu file chính là:
-
-```text
-final_pricepilot_3.py
-```
-
-thì Start Command là:
-
-```text
-gunicorn final_pricepilot_3:app
-```
-
-Nếu file chính là:
-
-```text
-finalv5_real_progress_smooth.py
-```
-
-thì Start Command là:
-
-```text
-gunicorn finalv5_real_progress_smooth:app
-```
-
-Không dùng:
-
-```text
-gunicorn app:app
-```
-
-nếu repo không có file `app.py`.
-
----
-
-## Link demo nếu có
-
-* Link demo: `[Điền link demo Render của nhóm vào đây]`
-* Tài khoản demo nếu có: Không cần tài khoản demo.
-
-Không ghi mật khẩu thật, token thật, API key thật hoặc thông tin riêng tư lên GitHub.
 
 ## Ghi chú về dữ liệu nếu có
 
