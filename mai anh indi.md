@@ -1,6 +1,6 @@
 **Individual Footprint**
 
-Thành viên: Dương – 2312380005
+Thành viên: manh – 2312380005
 1. Vai trò trong dự án
 
 Trong dự án PricePilot, em phụ trách phần M2 – Data & Input. Nói đơn giản, phần việc của em là làm sao để những dữ liệu người dùng nhập vào có thể được hệ thống hiểu, xử lý và chuyển thành dữ liệu đầu vào cho mô hình mô phỏng phía sau.
