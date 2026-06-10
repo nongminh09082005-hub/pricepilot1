@@ -91,187 +91,47 @@ https://pricepilot123.onrender.com/
 
 ## Cách 2: Chạy local trên máy tính
 
+Nếu không dùng link demo online, người dùng có thể tải repo về máy và chạy trực tiếp bằng Python.
+
 ### Bước 1: Tải code từ GitHub
 
-Cách đơn giản nhất:
+Vào repo nhóm G06 trên GitHub, bấm nút **Code**, chọn **Download ZIP**, sau đó giải nén file ZIP vào một thư mục trên máy. Ví dụ có thể giải nén vào thư mục `C:\Users\YourName\Desktop\G06`.
 
-1. Vào repo nhóm G06 trên GitHub.
-2. Bấm nút màu xanh **Code**.
-3. Chọn **Download ZIP**.
-4. Giải nén file ZIP vào một thư mục trên máy.
-
-Ví dụ:
-
-```text
-C:\Users\YourName\Desktop\G06
-```
-
-Hoặc nếu dùng Git, chạy lệnh:
-
-```bash
-git clone https://github.com/FTU-Legacy-62/G06.git
-```
-
-Sau đó vào thư mục project:
-
-```bash
-cd G06
-```
-
----
+Nếu dùng Git, có thể chạy lệnh `git clone https://github.com/FTU-Legacy-62/G06.git`, sau đó vào thư mục project bằng lệnh `cd G06`.
 
 ### Bước 2: Kiểm tra Python
 
-Mở Command Prompt hoặc Terminal và chạy:
+Mở Command Prompt hoặc Terminal và chạy lệnh `python --version`. Nếu dùng Windows mà lệnh này không chạy, có thể thử `py --version`.
 
-```bash
-python --version
-```
+Nếu máy chưa có Python, cần cài Python 3 trước. Khi cài Python trên Windows, nên chọn mục **Add Python to PATH** để có thể chạy Python từ Command Prompt.
 
-Nếu dùng Windows và lệnh trên không chạy, thử:
+### Bước 3: Kiểm tra các file trong repo
 
-```bash
-py --version
-```
+Sau khi tải repo về máy, thư mục project cần có các file chính như `pricepilot.py`, `requirements.txt`, `README.md`, `GROUP_FOOTPRINT.md` và `INDIVIDUAL_FOOTPRINT.md`.
 
-Nếu máy chưa có Python, cần cài Python 3 trước. Khi cài Python trên Windows, nên tick lựa chọn:
-
-```text
-Add Python to PATH
-```
-
----
-
-### Bước 3: Kiểm tra các file cần có trong repo
-
-Repo cần có tối thiểu các file sau:
-
-```text
-final_pricepilot_3.py
-requirements.txt
-README.md
-GROUP_FOOTPRINT.md
-INDIVIDUAL_FOOTPRINT.md
-```
-
-Nếu file Python chính của nhóm có tên khác, ví dụ:
-
-```text
-finalv5_real_progress_smooth.py
-```
-
-thì cần dùng đúng tên file đó khi chạy local và khi deploy.
-
----
+Trong đó, `pricepilot.py` là file chính để chạy web app. File `requirements.txt` là file liệt kê các thư viện Python cần thiết để app hoạt động.
 
 ### Bước 4: Cài thư viện cần thiết
 
-Trong thư mục chứa file Python chính, chạy:
+Trong thư mục chứa file `pricepilot.py`, chạy lệnh `pip install -r requirements.txt` để cài thư viện.
 
-```bash
-pip install -r requirements.txt
-```
+Nếu Windows không nhận lệnh `pip`, có thể dùng lệnh `py -m pip install -r requirements.txt`.
 
-Nếu Windows báo không nhận lệnh `pip`, thử:
-
-```bash
-py -m pip install -r requirements.txt
-```
-
-File `requirements.txt` dùng để liệt kê các thư viện Python cần thiết để chạy app. Người dùng chỉ cần chạy một lệnh trên để cài toàn bộ thư viện.
-
-Ví dụ nội dung `requirements.txt`:
-
-```text
-flask
-pandas
-plotly
-numpy
-gunicorn
-```
-
-Ý nghĩa của các thư viện:
-
-* `flask`: tạo web app và xử lý các route như `/`, `/input`, `/run`, `/loading`, `/result`;
-* `pandas`: lưu và xử lý bảng kết quả simulation;
-* `numpy`: tính toán số học và random sampling cho Monte Carlo simulation;
-* `plotly`: tạo biểu đồ tương tác trong dashboard;
-* `gunicorn`: dùng để chạy Flask app khi deploy trên Render.
-
----
+Các thư viện chính trong `requirements.txt` gồm Flask, pandas, numpy, plotly và gunicorn. Flask dùng để tạo web app, pandas và numpy dùng để xử lý dữ liệu và tính toán simulation, plotly dùng để hiển thị biểu đồ, còn gunicorn dùng khi deploy app lên Render.
 
 ### Bước 5: Chạy ứng dụng
 
-Nếu file chính tên là:
+Sau khi cài xong thư viện, chạy app bằng lệnh `python pricepilot.py`. Nếu dùng Windows và lệnh `python` không chạy, có thể dùng `py pricepilot.py`.
 
-```text
-final_pricepilot_3.py
-```
-
-thì chạy:
-
-```bash
-python final_pricepilot_3.py
-```
-
-Nếu dùng Windows và lệnh `python` không chạy, dùng:
-
-```bash
-py final_pricepilot_3.py
-```
-
-Nếu file chính của nhóm đang là:
-
-```text
-finalv5_real_progress_smooth.py
-```
-
-thì chạy:
-
-```bash
-python finalv5_real_progress_smooth.py
-```
-
-hoặc:
-
-```bash
-py finalv5_real_progress_smooth.py
-```
-
-Khi chạy thành công, terminal thường hiện dòng tương tự:
-
-```text
-Running on http://127.0.0.1:5000
-```
-
----
+Khi chạy thành công, terminal sẽ hiện đường link local, thường là `http://127.0.0.1:5000`.
 
 ### Bước 6: Mở app trên trình duyệt
 
-Mở Chrome, Edge hoặc trình duyệt bất kỳ, sau đó truy cập:
+Mở Chrome, Edge hoặc trình duyệt bất kỳ, sau đó truy cập `http://127.0.0.1:5000`.
 
-```text
-http://127.0.0.1:5000
-```
+Sau khi mở được app, demo theo thứ tự: mở trang intro, bấm **Start**, nhập dữ liệu hoặc giữ dữ liệu mẫu ở trang input, chọn số lần Monte Carlo simulations, bấm **Run Simulation**, chờ trang loading chạy xong và xem trang result.
 
-Sau đó demo theo thứ tự:
-
-```text
-1. Mở trang intro.
-2. Bấm Start.
-3. Nhập hoặc giữ dữ liệu mẫu ở trang input.
-4. Chọn số lần Monte Carlo simulations.
-5. Bấm Run Simulation.
-6. Chờ trang loading chạy xong.
-7. Xem trang result.
-8. Kiểm tra recommended price range.
-9. Xem KPI cards và biểu đồ.
-10. Mở Monte Carlo Profit Distribution nếu cần.
-11. Mở Personalized Detailed Insight để xem phần giải thích chi tiết.
-```
-
----
-
+Ở trang result, người dùng có thể xem recommended price range, expected profit, demand loss, downside risk, các biểu đồ phân tích, Monte Carlo Profit Distribution và phần Personalized Detailed Insight.
 ## Cách chạy nếu gặp lỗi thường gặp
 
 ### Lỗi 1: Thiếu thư viện
