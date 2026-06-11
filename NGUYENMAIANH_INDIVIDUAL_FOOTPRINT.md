@@ -1,14 +1,18 @@
-**Individual Footprint**
+### **Individual Footprint**
 
-**Thành viên 3: Nguyễn Mai Anh \- 2313380002**
+**Họ và tên:**
+**Nguyễn Mai Anh**
 
-1. **Vai trò trong dự án**
+**Mã sinh viên:**
+**2313380002**
+
+## Vai trò trong dự án
 
 Trong dự án PricePilot của nhóm 6, em phụ trách module 3: Monte Carlo Simulation \-  thực hiện mô phỏng nhu cầu người tiêu dùng, lợi nhuận và rủi ro của doanh nghiệp ở nhiều mức tăng giá khác nhau.
 
 Công việc của em trong module này bao gồm: Xây dựng logic mô phỏng nhiều kịch bản thị trường ngẫu nhiên cho từng mức tăng giá; Tính toán các chỉ số từ bộ giá trị mô phỏng như demand, demand change, cost per order, profit, profit change và downside risk ở mỗi lần mô phỏng; Tổng hợp kết quả để chuyển sang phần xây dựng recommendation và hiển thị trên trang kết quả của sản phẩm. 
 
-2. **Dấu ấn cá nhân trong sản phẩm**
+## Dấu ấn cá nhân trong sản phẩm
 
 Phần đóng góp của em trong sản phẩm chủ yếu nằm ở lớp xử lý dữ liệu bên trong hệ thống. Kết quả từ phần Monte Carlo Simulation không trực tiếp hiện lên trên giao diện sử dụng của người dùng, mà được sử dụng làm dữ liệu nền để các phần tiếp theo của sản phẩm hoạt động. 
 
@@ -18,15 +22,15 @@ Trong phần Monte Carlo Simulation này, em đã xây dựng logic mô phỏng 
 
 Kết quả từ phần Monte Carlo Simulation sẽ được thành viên thứ 4 đảm nhận phần xây dựng Advisory logic sử dụng để xác định các mức tăng giá phù hợp cho từng chiến lược Aggressive, Balanced và Conservative. Sau đó, thành viên thứ 5 đảm nhận phần xây dựng giao diện cũng sẽ sử dụng kết quả mô phỏng để thể hiện trên dashboard, xây dựng biểu đồ Monte Carlo Profit Distribution và Demand vs. Price Increase. 
 
-3. **Những việc đã thực sự làm**
+## Những việc đã thực sự làm
 
-- ### **Xây dựng danh sách các mức tăng giá cần kiểm tra**
+- # **Xây dựng danh sách các mức tăng giá cần kiểm tra**
 
 Em xây dựng danh sách các mức tăng giá để hệ thống lần lượt kiểm tra nhiều kịch bản thị trường khác nhau. Danh sách này bắt đầu từ **0%** đến mức tăng giá tối đa do người dùng chọn, với bước nhảy **0.5%**.
 
 Phần này giúp sản phẩm không chỉ đánh giá một mức tăng giá duy nhất, mà có thể so sánh nhiều mức tăng giá khác nhau để tìm ra phương án phù hợp hơn.
 
-- ### **Xây dựng vòng lặp Monte Carlo Simulation cho từng mức tăng giá**
+- # **Xây dựng vòng lặp Monte Carlo Simulation cho từng mức tăng giá**
 
 Sau khi có danh sách các mức tăng giá, em xây dựng vòng lặp để chạy Monte Carlo Simulation cho từng mức giá. Với mỗi mức tăng giá, hệ thống sẽ chạy nhiều lần mô phỏng, từ 1,000 đến 20,000 lần tùy theo lựa chọn của người dùng.
 
@@ -39,7 +43,7 @@ Trong mỗi lần mô phỏng, hệ thống random các biến thị trường t
 
 Việc random các biến này giúp mô hình phản ánh tình huống thực tế tốt hơn, vì thị trường luôn có nhiều yếu tố bất định và doanh nghiệp không thể dự đoán chính xác một kịch bản duy nhất.
 
-- ### **Tính các chỉ số cho từng simulation**
+- # **Tính các chỉ số cho từng simulation**
 
 Trong từng lần mô phỏng, em tính các chỉ số quan trọng để đánh giá tác động của việc tăng giá gồm: 
 
@@ -53,7 +57,7 @@ Trong từng lần mô phỏng, em tính các chỉ số quan trọng để đá
 
 Phần này giúp hệ thống nhìn được kết quả cụ thể của từng tình huống thị trường, thay vì chỉ đưa ra một con số lợi nhuận cố định.
 
-- ### **Tổng hợp kết quả sau khi chạy xong Monte Carlo cho mỗi mức giá**
+- # **Tổng hợp kết quả sau khi chạy xong Monte Carlo cho mỗi mức giá**
 
 Sau khi hoàn thành toàn bộ các lần mô phỏng cho các mức tăng giá, em tổng hợp kết quả thành bảng dữ liệu theo từng mức giá.
 
@@ -70,11 +74,11 @@ Các chỉ số được tổng hợp gồm:
 
 Bảng tổng hợp này là output chính của phần Monte Carlo Simulation. Kết quả này được chuyển sang các phần tiếp theo để xây dựng recommendation, xác định chiến lược giá và hiển thị trên trang Result của sản phẩm.
 
-- **Cùng xây dựng phần Technical Flow của sản phẩm**
+- # **Cùng xây dựng phần Technical Flow của sản phẩm**
 
 Ngoài phần code Monte Carlo Simulation, em cũng tham gia cùng nhóm xây dựng technical flow của sản phẩm. Phần này giúp nhóm mô tả rõ quy trình hoạt động của PricePilot từ lúc người dùng mở website, nhập dữ liệu, hệ thống kiểm tra và xử lý input, tính toán pricing baseline, chạy Monte Carlo Simulation, xây dựng recommendation, cho đến khi hiển thị kết quả cuối cùng trên trang Result.
 
-4. **Bằng chứng đóng góp**
+## Bằng chứng đóng góp
 
 Bằng chứng đóng góp của em được thể hiện ở:
 
@@ -93,11 +97,11 @@ simulation\_df \= pd.DataFrame(simulation\_rows)
 <img width="1672" height="941" alt="technicalflow" src="https://github.com/user-attachments/assets/3ae57dc8-081f-4549-818d-40d8a16c07a5" />
 
 
-5. **Phần đóng góp đó kết nối thế nào với sản phẩm cuối cùng**
+## Phần đóng góp đó kết nối thế nào với sản phẩm cuối cùng
 
 Phần Monte Carlo Simulation này đã tạo ra bộ dữ liệu mô phỏng kết quả kinh doanh của doanh nghiệp ở các mức tăng giá khác nhau, dựa trên đó, thành viên tiếp theo có thể xác định mức tăng giá phù hợp cho từng chiến lược Aggressive, Balanced và Conservative. Bên cạnh đó, phần giao diện Result cũng sử dụng kết quả từ simulation để hiển thị các chỉ số như expected profit, profit change, demand loss, downside risk và các biểu đồ như Monte Carlo Profit Distribution và Demand vs. Price Increase.
 
-6. **Điều cá nhân học được**  
+## Điều cá nhân học được
 - Logic của Monte Carlo Simulation và ứng dụng trong thực tế:
 
 Em đã được học lý thuyết về Monte Carlo Simulation trong các môn như Tài chính doanh nghiệp và Phương pháp định lượng trong tài chính. Tuy nhiên, phải đến khi vận dụng mô hình này vào chính sản phẩm của nhóm, em mới thực sự hiểu rõ hơn cách mô hình hoạt động và những ứng dụng thực tế của nó.
@@ -110,7 +114,7 @@ Khi bắt đầu thực hiện module 3 này, em chưa có nhiều kiến thức
 
 Tuy nhiên, trong quá trình này, em cũng nhận ra rằng không được phụ thuộc hoàn toàn vào các gợi ý từ AI, người sử dụng cần kết hợp tìm kiếm thông tin từ các nguồn khác và những hiểu biết về sản phẩm, kiểm tra công thức, chạy thử code và tự đánh giá xem kết quả có hợp lý với sản phẩm mục tiêu hay không. AI là một công cụ hỗ trợ hiệu quả, đa năng khi người sử dụng vận dụng đúng cách
 
-7. **Khó khăn đã gặp và cách xử lý**
+## Khó khăn đã gặp và cách xử lý
 
 Trong những phiên bản đầu của web PricePilot, mô hình Monte Carlo Simulation không chỉ random các biến thị trường như hiện tại mà còn random cả phần elasticity. Vấn đề này dẫn đến hai hạn chế chính. Thứ nhất, kết quả mô phỏng không phản ánh đúng dữ liệu thực tế của doanh nghiệp, vì độ nhạy của khách hàng với giá bị thay đổi ngẫu nhiên thay vì dựa trên lịch sử của doanh nghiệp đó. Thứ hai, kết quả profit, demand và risk có thể trở nên thiếu hợp lý, vì cùng một doanh nghiệp nhưng mỗi lần mô phỏng lại có một mức elasticity khác nhau. 
 
@@ -118,7 +122,7 @@ Sau khi phát hiện lỗi này, em đã trao đổi lại với nhóm và thố
 
 Mô hình sau khi được chỉnh sửa và kiểm tra lại đã cho ra kết quả hợp lý hơn, giúp sản phẩm tính toán kết quả kinh doanh của doanh nghiệp trong các điều kiện thị trường ngẫu nhiên mà vẫn sát với đặc điểm, dữ liệu thực, vốn có của doanh nghiệp đó.
 
-8. **Lời nhắn cho sinh viên khóa sau**
+## Lời nhắn cho sinh viên khóa sau
 
 Hiện tại, PricePilot mới được phát triển cho lĩnh vực gia công cơ khí, tuy nhiên, sản phẩm này hoàn toàn có thể được mở rộng sang nhiều ngành khác, ví dụ như phân phối vật liệu xây dựng hoặc các ngành có nhu cầu đánh giá tác động của việc tăng giá. Mình hy vọng các bạn khóa sau có thể tiếp tục phát triển PricePilot, bổ sung thêm dữ liệu thực tế và mở rộng phạm vi người dùng để sản phẩm có tính ứng dụng cao hơn. Khi mở rộng sang một lĩnh vực mới, các bạn nên chú ý nghiên cứu kỹ target user mới, thay vì chỉ dựa vào suy nghĩ chủ quan về nhu cầu của người dùng, nên bắt đầu từ việc tìm hiểu các pain point thực tế của họ.
 
