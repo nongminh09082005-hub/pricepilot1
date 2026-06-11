@@ -338,9 +338,13 @@ Bên cạnh đó, các doanh nghiệp gia công cơ khí vừa và nhỏ thườ
 Từ định hướng đó, PricePilot được xây dựng để hỗ trợ doanh nghiệp nhập dữ liệu chi phí, nhu cầu, dữ liệu giá trong quá khứ và các giả định thị trường. Sau đó, sản phẩm mô phỏng nhiều mức tăng giá khác nhau và trình bày kết quả dưới dạng dashboard, giúp người dùng so sánh lợi nhuận kỳ vọng, mức mất nhu cầu và rủi ro lợi nhuận thấp hơn hiện tại trước khi ra quyết định.
 
 
-### 2. Chọn web app thay vì spreadsheet
+### 2. 2. Vì sao chọn Monte Carlo simulation
 
-Nhóm chọn web app để người dùng có trải nghiệm trực quan hơn. Dashboard có thể tổ chức input, output, biểu đồ và phần giải thích trong cùng một luồng sử dụng. So với spreadsheet, web app cũng dễ demo và dễ mở rộng thêm các tính năng tương tác.
+Nhóm chọn Monte Carlo simulation vì bài toán định giá trong PricePilot không phải là một bài toán có kết quả chắc chắn. Khi doanh nghiệp quyết định tăng giá, kết quả cuối cùng không chỉ phụ thuộc vào mức giá mới, mà còn phụ thuộc vào nhiều yếu tố thị trường có tính bất định như tăng trưởng nhu cầu, áp lực ngân sách của khách hàng, biến động nguyên vật liệu và lạm phát chi phí.
+
+Nếu chỉ dùng một kịch bản cố định, sản phẩm sẽ chỉ cho ra một kết quả duy nhất, trong khi thực tế có thể xảy ra nhiều tình huống khác nhau. Monte Carlo phù hợp với PricePilot vì người dùng có thể nhập các khoảng giả định, sau đó hệ thống mô phỏng nhiều lần để xem kết quả có thể dao động như thế nào.
+
+Nhờ đó, web không chỉ hiển thị expected profit, mà còn cho thấy average demand, demand loss và probability of lower profit. Điều này giúp người dùng không chỉ biết phương án nào có lợi nhuận kỳ vọng tốt hơn, mà còn hiểu được mức độ rủi ro trước khi ra quyết định.
 
 ### 3. Chọn Flask single-file MVP
 
