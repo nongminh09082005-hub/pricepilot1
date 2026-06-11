@@ -26,7 +26,7 @@ Bên cạnh đó, em tập trung vào việc xây dựng các công thức chín
 - Công thức tính giá bán đề xuất dựa trên chi phí và tỷ suất lợi nhuận mục tiêu.
 - Công thức tính doanh thu và lợi nhuận cho từng kịch bản giá.
 
-Những công thức này là nền tảng để **Monte Carlo Simulation** có thể hoạt động và đưa ra khuyến nghị tăng giá phù hợp.
+Những công thức này là nền tảng để Monte Carlo Simulation có thể hoạt động và đưa ra khuyến nghị tăng giá phù hợp.
 
 ---
 
