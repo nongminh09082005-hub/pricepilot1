@@ -24,13 +24,13 @@ Kết quả từ phần Monte Carlo Simulation sẽ được thành viên thứ 
 
 ## Những việc đã thực sự làm
 
-- # **Xây dựng danh sách các mức tăng giá cần kiểm tra**
+- **Xây dựng danh sách các mức tăng giá cần kiểm tra**
 
 Em xây dựng danh sách các mức tăng giá để hệ thống lần lượt kiểm tra nhiều kịch bản thị trường khác nhau. Danh sách này bắt đầu từ **0%** đến mức tăng giá tối đa do người dùng chọn, với bước nhảy **0.5%**.
 
 Phần này giúp sản phẩm không chỉ đánh giá một mức tăng giá duy nhất, mà có thể so sánh nhiều mức tăng giá khác nhau để tìm ra phương án phù hợp hơn.
 
-- # **Xây dựng vòng lặp Monte Carlo Simulation cho từng mức tăng giá**
+- **Xây dựng vòng lặp Monte Carlo Simulation cho từng mức tăng giá**
 
 Sau khi có danh sách các mức tăng giá, em xây dựng vòng lặp để chạy Monte Carlo Simulation cho từng mức giá. Với mỗi mức tăng giá, hệ thống sẽ chạy nhiều lần mô phỏng, từ 1,000 đến 20,000 lần tùy theo lựa chọn của người dùng.
 
@@ -43,7 +43,7 @@ Trong mỗi lần mô phỏng, hệ thống random các biến thị trường t
 
 Việc random các biến này giúp mô hình phản ánh tình huống thực tế tốt hơn, vì thị trường luôn có nhiều yếu tố bất định và doanh nghiệp không thể dự đoán chính xác một kịch bản duy nhất.
 
-- # **Tính các chỉ số cho từng simulation**
+- **Tính các chỉ số cho từng simulation**
 
 Trong từng lần mô phỏng, em tính các chỉ số quan trọng để đánh giá tác động của việc tăng giá gồm: 
 
@@ -57,7 +57,7 @@ Trong từng lần mô phỏng, em tính các chỉ số quan trọng để đá
 
 Phần này giúp hệ thống nhìn được kết quả cụ thể của từng tình huống thị trường, thay vì chỉ đưa ra một con số lợi nhuận cố định.
 
-- # **Tổng hợp kết quả sau khi chạy xong Monte Carlo cho mỗi mức giá**
+- **Tổng hợp kết quả sau khi chạy xong Monte Carlo cho mỗi mức giá**
 
 Sau khi hoàn thành toàn bộ các lần mô phỏng cho các mức tăng giá, em tổng hợp kết quả thành bảng dữ liệu theo từng mức giá.
 
@@ -74,7 +74,7 @@ Các chỉ số được tổng hợp gồm:
 
 Bảng tổng hợp này là output chính của phần Monte Carlo Simulation. Kết quả này được chuyển sang các phần tiếp theo để xây dựng recommendation, xác định chiến lược giá và hiển thị trên trang Result của sản phẩm.
 
-- # **Cùng xây dựng phần Technical Flow của sản phẩm**
+- **Cùng xây dựng phần Technical Flow của sản phẩm**
 
 Ngoài phần code Monte Carlo Simulation, em cũng tham gia cùng nhóm xây dựng technical flow của sản phẩm. Phần này giúp nhóm mô tả rõ quy trình hoạt động của PricePilot từ lúc người dùng mở website, nhập dữ liệu, hệ thống kiểm tra và xử lý input, tính toán pricing baseline, chạy Monte Carlo Simulation, xây dựng recommendation, cho đến khi hiển thị kết quả cuối cùng trên trang Result.
 
