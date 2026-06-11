@@ -1,11 +1,9 @@
-# Individual Footprint
+**Individual Footprint**
 
-## Họ và tên
-
+**Họ và tên:**
 **Nông Đức Minh**
 
-## Mã sinh viên
-
+**Mã sinh viên:**
 **2312380020**
 
 ## Vai trò trong dự án
