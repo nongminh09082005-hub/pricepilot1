@@ -19,7 +19,7 @@ Bên cạnh đó, em tập trung vào việc xây dựng các công thức chín
 
 ## 2. Dấu ấn cá nhân trong sản phẩm
 
-Đóng góp rõ ràng nhất của em là phần **pricing model** và các công thức kinh tế được sử dụng trong hệ thống. Toàn bộ quá trình mô phỏng của PricePilot đều dựa trên các công thức mà em thiết kế, đặc biệt là:
+Đóng góp rõ ràng nhất của em là phần mô hình định giá (pricing model) và các công thức kinh tế được sử dụng trong hệ thống. Toàn bộ quá trình mô phỏng của PricePilot đều dựa trên các công thức mà em thiết kế, đặc biệt là:
 
 - Công thức tính **Price Elasticity** từ dữ liệu lịch sử.
 - Công thức dự báo nhu cầu mới sau khi thay đổi giá.
