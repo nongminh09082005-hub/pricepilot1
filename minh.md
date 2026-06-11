@@ -195,14 +195,6 @@ Loading screen được dùng khi hệ thống đang chạy simulation. Phần n
 
 Trang output là phần quan trọng nhất trong đóng góp của em. Đây là nơi hiển thị recommendation, KPI cards, biểu đồ, scenario cards và phần phân tích chi tiết. Phần này giúp biến kết quả mô phỏng thành một dashboard trực quan để người dùng có thể hiểu và ra quyết định.
 
-### 5. Một số lỗi đã xử lý trong quá trình làm
-
-Trong quá trình làm phần web và result display, em cũng gặp và xử lý một số lỗi liên quan đến giao diện và trải nghiệm demo, ví dụ:
-
-* Loading page có lúc chuyển sang result quá nhanh, tạo cảm giác bị “vút phát” chứ không giống quá trình mô phỏng thật. Em xử lý bằng cách chỉnh lại logic progress bar để loading mượt hơn và chỉ chuyển trang khi progress đạt 100%.
-* Khi profit improvement âm, dashboard ban đầu vẫn có câu kiểu “improves expected profit by -33%”, dễ gây hiểu nhầm. Em chỉnh lại thành **Defensive Recommendation** và **Profit gap vs current** để cách diễn đạt đúng với kết quả mô hình hơn.
-* Khi chạy số lượng simulation lớn trên Render, app có thể fail do backend xử lý quá nặng. Nhóm đã điều chỉnh lại cách chạy và giảm việc lưu dữ liệu trung gian quá lớn để sản phẩm phù hợp hơn với môi trường demo.
-* Một số phần giao diện ban đầu hơi rối vì có nhiều chỉ số. Em xử lý bằng cách chia lại layout thành recommendation, KPI, chart, scenario và insight.
 
 
 ## Phần đóng góp đó kết nối thế nào với sản phẩm cuối cùng
