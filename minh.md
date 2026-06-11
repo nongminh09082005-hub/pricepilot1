@@ -196,23 +196,20 @@ Một điều quan trọng nữa là em học được rằng cách diễn đạ
 
 ## Khó khăn đã gặp và cách xử lý
 
-Khó khăn đầu tiên là kết quả mô phỏng có nhiều chỉ số. Nếu đưa hết lên màn hình cùng lúc, dashboard sẽ bị rối và người dùng không biết nên nhìn vào đâu trước. Em xử lý bằng cách chia thông tin thành nhiều tầng: recommendation chính ở trên cùng, sau đó là KPI, biểu đồ, scenario cards và cuối cùng là detailed insight.
+Khó khăn đầu tiên của em là bắt đầu làm phần web khi gần như chưa có nền tảng về HTML, CSS, JavaScript và Flask. Ban đầu em chưa hiểu rõ một trang web được chia thành cấu trúc, giao diện, tương tác và dữ liệu phía sau như thế nào. Để xử lý, em phải học từng phần nhỏ: HTML để tạo cấu trúc trang, CSS để chỉnh bố cục và giao diện, JavaScript để làm các tương tác như mở modal hoặc ẩn/hiện insight, còn Flask để hiểu cách dữ liệu từ Python được truyền sang trang web. Việc học hỏi về những kiến thức này em đã cần sự hỗ trợ từ các cộng cụ AI, từ đó nắm được cách thức thực hiện
 
-Khó khăn thứ hai là làm sao để người dùng hiểu **Monte Carlo Profit Distribution**. Nếu chỉ đưa một biểu đồ histogram cố định thì chưa đủ. Vì vậy, em tạo modal cho phép chọn từng mức price increase để xem phân phối lợi nhuận, expected profit, lower profit probability và average demand tương ứng. Cách này giúp người dùng kiểm tra rủi ro trực quan hơn.
+Khó khăn tiếp theo là dữ liệu của kết quả mô phỏng khá nhiều, đặc biệt khi chạy Monte Carlo với nhiều mức price increase và nhiều lần simulation. Nếu đưa quá nhiều dữ liệu lên web cùng lúc hoặc render quá nhiều biểu đồ, dashboard có thể bị chậm hoặc bị lag khi demo. Để xử lý, em không hiển thị toàn bộ dữ liệu mô phỏng thô trên màn hình chính, mà chỉ đưa các chỉ số tổng hợp quan trọng như expected profit, probability of lower profit, average demand và demand loss lên dashboard. Các dữ liệu chi tiết hơn được đưa vào modal riêng để người dùng mở khi cần xem.
 
-Khó khăn thứ ba là phải cân bằng giữa giao diện đẹp và tính dễ hiểu. Em xử lý bằng cách dùng card layout, màu sắc nhất quán, label ngắn gọn và chia rõ từng khu vực. Em cũng thêm Quick Personalized Insights và Personalized Detailed Insight để kết quả không chỉ là con số mà còn có giải thích.
+Một khó khăn khác là nhiều người dùng có thể không hiểu rõ Monte Carlo là gì, nên nếu trình bày không cẩn thận thì phần này sẽ rất khó hiểu. Để xử lý, em thiết kế phần Monte Carlo Profit Distribution theo hướng trực quan hơn: người dùng có thể chọn từng mức price increase trong dropdown, sau đó xem đồ thị phân phối lợi nhuận tương ứng. Trong modal, em đặt rõ các chỉ số như expected profit, lower profit probability và average demand để người dùng hiểu mỗi biểu đồ đang nói gì. Khi di chuột vào biểu đồ, tooltip cũng hiển thị thông tin cụ thể hơn, giúp người dùng đọc kết quả mà không cần nhìn quá nhiều số liệu cùng lúc.
 
-Khó khăn cuối cùng là dashboard phải phù hợp để demo. Em thêm loading page, nút Run Again, nút Download Report và các phần trình bày rõ ràng để khi thuyết trình, nhóm có thể đi theo flow: nhập dữ liệu → chạy mô phỏng → xem kết quả → giải thích recommendation.
-
+Ngoài ra khi test lại web với một trường hợp cực xấu và không khả quan, em có lỗi trình bày làm cho web vẫn recommend tăng giá sản phẩm trong khi điều này không mang lại lợi nhuận cho khách hàng tốt hơn so với trường hợp mặc định. Để xử lý vấn đề này, em trình bày lại defensive recommendation, giúp web trình bày lại với khách hàng về trường hợp tối ưu và chỉnh sửa từ profit improvement sang thành profit gap để thấy rõ được chênh lệch về lợi nhuận tiềm năng, giúp khách hàng cân nhắc kĩ hơn.
 
 ## Lời nhắn cho sinh viên khóa sau
 
-Nếu sinh viên khóa sau muốn tiếp tục hoặc học từ phần việc này, em nghĩ nên bắt đầu từ việc hiểu rõ người dùng và luồng sử dụng trước khi viết code. Với một sản phẩm decision-support, giao diện không chỉ để nhìn đẹp mà còn quyết định việc người dùng có hiểu và tin kết quả hay không.
+Nếu sinh viên khóa sau muốn tiếp tục hoặc học từ phần việc này, em nghĩ cần có một chút nền tảng về code, sau đó cần đặt mình vào khách hàng, hiểu rõ trình bày như thế nào thì hợp lý và thuận mắt nhất, dễ tiếp cận với nội dung muốn truyền tải.
 
-Các bạn nên test sản phẩm với nhiều bộ input khác nhau, đặc biệt là các trường hợp xấu như profit improvement âm, downside risk cao hoặc demand loss lớn. Nếu chỉ test với dữ liệu đẹp, dashboard có thể trông ổn nhưng khi gặp tình huống thực tế hơn thì wording và logic hiển thị rất dễ bị sai.
+Các bạn nên test sản phẩm với nhiều bộ input khác nhau, đặc biệt là các trường hợp xấu như profit improvement âm, downside risk cao hoặc demand loss lớn. Nếu chỉ test với dữ liệu đẹp, dashboard có thể trông ổn nhưng khi gặp tình huống thực tế hơn thì wording và logic hiển thị rất dễ bị sai. ví dụ điển hình như case ở trên. 
 
-Ngoài ra, nên deploy sản phẩm sớm lên Render hoặc nền tảng tương tự để phát hiện lỗi sớm. Một số lỗi chỉ xuất hiện khi chạy online, ví dụ sai start command, thiếu package trong requirements.txt, loading không mượt hoặc simulation quá nặng.
-
-Nếu tiếp tục phát triển PricePilot, em nghĩ nên thêm database để lưu lịch sử mô phỏng, thêm user account, và kết nối dữ liệu thị trường thật như giá nguyên vật liệu hoặc chỉ số ngành. Phần dashboard cũng có thể phát triển thêm chức năng export report để người dùng tải kết quả thành PDF.
+Nếu tiếp tục phát triển PricePilot, em nghĩ nên thêm database để lưu lịch sử mô phỏng, thêm user account, và kết nối dữ liệu thị trường thật như giá nguyên vật liệu hoặc chỉ số ngành. Và cần có cách hay hơn để tính toán elasticity. Phần dashboard cũng có thể phát triển thêm chức năng export report để người dùng tải kết quả thành PDF.
 
 
