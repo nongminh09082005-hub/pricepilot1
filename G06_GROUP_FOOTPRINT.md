@@ -325,31 +325,36 @@ Sản phẩm tạo một phần phân tích chi tiết gồm:
 
 ## Các lựa chọn thiết kế quan trọng
 
-### 1. Chọn vấn đề pricing cho doanh nghiệp cơ khí
+### 1. Chọn vấn đề để thực hiện bài và chọn đối tượng mục tiêu
 
-Nhóm chọn pricing vì đây là quyết định có tác động trực tiếp đến lợi nhuận, nhu cầu và khả năng cạnh tranh của doanh nghiệp. Trong ngành sản xuất cơ khí, chi phí nguyên vật liệu và chi phí cố định có vai trò lớn, nên việc tăng giá không thể chỉ dựa trên cảm tính.
+Ý tưởng ban đầu của nhóm là xây dựng một web app hỗ trợ doanh nghiệp ra quyết định về giá bán sản phẩm. Tuy nhiên, khi phát triển ý tưởng, nhóm nhận ra rằng bài toán pricing chỉ thật sự phù hợp nếu đặt trong một ngành có mức độ cạnh tranh tương đối cao, nơi doanh nghiệp không thể tự do tăng giá mà không quan tâm đến phản ứng của khách hàng, nhu cầu thị trường và đối thủ cạnh tranh.
 
-### 2. Chọn SME mechanical manufacturing làm người dùng mục tiêu
+Nếu chọn một ngành có một hoặc một vài doanh nghiệp lớn chi phối thị trường, quyết định giá có thể phụ thuộc nhiều vào sức mạnh thương hiệu, vị thế thị trường hoặc quyền lực định giá. Trong bối cảnh đó, một mô hình hỗ trợ khuyến nghị giá dựa trên cost, demand, elasticity và risk sẽ khó phản ánh đúng tình huống của các doanh nghiệp nhỏ hơn.
 
-Nhóm chọn doanh nghiệp cơ khí vừa và nhỏ vì nhóm này thường có nguồn lực hạn chế, không phải lúc nào cũng có công cụ phân tích pricing chuyên sâu. Một công cụ mô phỏng đơn giản, dễ nhập liệu và dễ đọc kết quả sẽ phù hợp hơn với nhu cầu thực tế của nhóm người dùng này.
+Vì vậy, nhóm quyết định chọn các doanh nghiệp vừa và nhỏ trong ngành gia công cơ khí làm đối tượng mục tiêu. Nhóm doanh nghiệp này thường phải cạnh tranh bằng giá, chất lượng, tiến độ giao hàng và quan hệ khách hàng. Họ cũng chịu ảnh hưởng rõ từ chi phí nguyên vật liệu, chi phí nhân công, chi phí cố định và biến động nhu cầu. Do đó, mỗi quyết định tăng giá đều cần được cân nhắc kỹ giữa mục tiêu bảo vệ lợi nhuận và rủi ro mất đơn hàng.
 
-### 3. Chọn web app thay vì spreadsheet
+Bên cạnh đó, các doanh nghiệp gia công cơ khí vừa và nhỏ thường không có nhiều công cụ phân tích pricing chuyên sâu. Việc báo giá trong thực tế có thể dựa nhiều vào kinh nghiệm, chi phí đầu vào hoặc phản ứng của khách hàng quen. Vì vậy, nhóm cho rằng một công cụ mô phỏng đơn giản, dễ nhập dữ liệu và dễ đọc kết quả sẽ phù hợp với nhu cầu của nhóm người dùng này.
+
+Từ định hướng đó, PricePilot được xây dựng để hỗ trợ doanh nghiệp nhập dữ liệu chi phí, nhu cầu, dữ liệu giá trong quá khứ và các giả định thị trường. Sau đó, sản phẩm mô phỏng nhiều mức tăng giá khác nhau và trình bày kết quả dưới dạng dashboard, giúp người dùng so sánh lợi nhuận kỳ vọng, mức mất nhu cầu và rủi ro lợi nhuận thấp hơn hiện tại trước khi ra quyết định.
+
+
+### 2. Chọn web app thay vì spreadsheet
 
 Nhóm chọn web app để người dùng có trải nghiệm trực quan hơn. Dashboard có thể tổ chức input, output, biểu đồ và phần giải thích trong cùng một luồng sử dụng. So với spreadsheet, web app cũng dễ demo và dễ mở rộng thêm các tính năng tương tác.
 
-### 4. Chọn Flask single-file MVP
+### 3. Chọn Flask single-file MVP
 
 Nhóm triển khai sản phẩm bằng Flask trong một file Python duy nhất. Cách này giúp nhóm tập trung vào logic mô phỏng và giao diện dashboard mà không làm cấu trúc kỹ thuật quá phức tạp. Dù frontend và backend nằm chung file, sản phẩm vẫn có đầy đủ phần nhập liệu, xử lý backend và hiển thị kết quả.
 
-### 5. Chọn Monte Carlo simulation
+### 4. Chọn Monte Carlo simulation
 
 Nhóm chọn Monte Carlo vì các yếu tố thị trường như demand growth, budget pressure, material shock và material inflation đều có tính bất định. Thay vì chỉ tính một kết quả cố định, Monte Carlo cho phép mô phỏng nhiều khả năng khác nhau và đo lường rủi ro downside.
 
-### 6. Chọn ba chiến lược Aggressive, Balanced, Conservative
+### 5. Chọn ba chiến lược Aggressive, Balanced, Conservative
 
 Ba chiến lược giúp người dùng không chỉ thấy một con số duy nhất, mà có thể so sánh các hướng ra quyết định khác nhau. Điều này phù hợp với thực tế quản trị, vì mỗi doanh nghiệp có mức chịu rủi ro khác nhau.
 
-### 7. Thêm defensive recommendation
+### 6. Thêm defensive recommendation
 
 Nhóm thêm logic defensive recommendation để tránh gây hiểu nhầm khi profit improvement âm. Nếu không có kịch bản nào thật sự tốt hơn baseline, hệ thống sẽ nói rõ đây là phương án phòng thủ trong điều kiện giả định hiện tại, không phải khuyến nghị tăng giá để chắc chắn tăng lợi nhuận.
 
