@@ -87,7 +87,14 @@ Bằng chứng có thể kiểm tra được gồm:
 
 Trong file code, có thể kiểm tra các phần liên quan đến việc lấy dữ liệu từ form, chuyển dữ liệu tiền tệ về dạng số, tính chi phí sản xuất, tính giá bán cơ sở, tính lợi nhuận hiện tại và tính elasticity. Ngoài ra, có thể chạy thử sản phẩm, thay đổi input trên trang /input và xem các kết quả phía sau thay đổi theo.
 
-![][image1]![][image2]![][image3]![][image4]![][image5]![][image6]![][image7]![][image8]![][image9]![][image10]
+<img width="805" height="281" alt="duong1" src="https://github.com/user-attachments/assets/6bb49eaa-1b18-4e83-a96b-440e2fcc9ce2" />
+<img width="805" height="386" alt="duong 2" src="https://github.com/user-attachments/assets/c1f45d5f-aa4d-448c-a186-3189f6cc2126" />
+<img width="805" height="194" alt="duong 3" src="https://github.com/user-attachments/assets/a540a0da-6e3b-4a61-905f-e42da6c6f63b" />
+<img width="806" height="354" alt="duong 4" src="https://github.com/user-attachments/assets/82676303-6676-463e-a33f-d33aca56e74f" />
+<img width="802" height="172" alt="duong 5" src="https://github.com/user-attachments/assets/6f4ddc4d-d8af-41de-9994-51dabffe66a3" />
+<img width="539" height="316" alt="duong 6" src="https://github.com/user-attachments/assets/07d34aba-1f85-414d-a099-b047cb4e75c4" />
+<img width="539" height="142" alt="duong 7" src="https://github.com/user-attachments/assets/4538e906-8262-4047-8174-dba190e7cd3b" />
+<img width="540" height="205" alt="duong 8" src="https://github.com/user-attachments/assets/020b9b01-5dee-42b2-86f6-c6cc537c9b3c" />
 
 **6\. Phần đóng góp đó kết nối thế nào với sản phẩm cuối cùng**  
 Phần của em là bước đầu tiên để sản phẩm có thể chạy được về mặt tính toán. Các module sau như Monte Carlo Simulation, Advisory Logic và Dashboard đều cần dữ liệu đầu vào đã được xử lý từ M2.  
