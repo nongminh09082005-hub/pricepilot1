@@ -159,9 +159,9 @@ Các bằng chứng đóng góp của em tập trung vào phần giao diện web
 
 Ảnh minh chứng:
 
-```markdown
-![Intro page](images/intro-page.png)
-```
+
+![Intro page](images<img width="1894" height="858" alt="Screenshot (3287)" src="https://github.com/user-attachments/assets/c0593722-3c6d-4543-b3e5-8461b5a78cf0" />)
+
 
 Trang intro là màn hình đầu tiên của sản phẩm. Phần này giới thiệu ngắn gọn PricePilot, giải thích sản phẩm hỗ trợ quyết định định giá cho doanh nghiệp sản xuất cơ khí và có nút để người dùng bắt đầu nhập dữ liệu.
 
