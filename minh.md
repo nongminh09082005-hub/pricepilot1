@@ -17,19 +17,13 @@ Các phần em phụ trách bao gồm giao diện trang giới thiệu, trang nh
 
 ## Dấu ấn cá nhân trong sản phẩm
 
-Dấu ấn cá nhân rõ nhất của em nằm ở trang **PricePilot Result Dashboard**. Đây là trang kết quả cuối cùng mà người dùng nhìn thấy sau khi nhập dữ liệu và chạy mô phỏng.
+Dấu ấn cá nhân rõ nhất của em nằm ở trang **PricePilot Result Dashboard**. Đây là trang kết quả cuối cùng sau khi người dùng nhập dữ liệu và chạy mô phỏng.
 
-Khi làm phần này, em muốn dashboard không chỉ là nơi “đổ số liệu” ra màn hình, mà phải giúp người dùng đọc kết quả nhanh và ra quyết định dễ hơn. Vì vậy, em thiết kế phần đầu trang để người dùng thấy ngay recommendation chính, gồm mức tăng giá được khuyến nghị, lợi nhuận kỳ vọng, mức thay đổi lợi nhuận, xác suất lợi nhuận thấp hơn hiện tại và mức mất nhu cầu trung bình.
+Khi làm phần này, em tập trung vào việc biến kết quả mô phỏng thành một dashboard dễ đọc và dễ ra quyết định. Phần đầu trang hiển thị ngay recommendation chính, gồm mức tăng giá được khuyến nghị, lợi nhuận kỳ vọng, mức thay đổi lợi nhuận, xác suất lợi nhuận thấp hơn hiện tại và mức mất nhu cầu trung bình.
 
-Bên dưới phần recommendation, em xây dựng hệ thống KPI cards để tóm tắt các chỉ số quan trọng. Em cũng thêm hai biểu đồ **Profit vs. Price Increase** và **Demand vs. Price Increase** để người dùng nhìn được mối quan hệ giữa quyết định tăng giá, lợi nhuận và nhu cầu.
+Bên dưới, em xây dựng hệ thống KPI cards hiển thị các thông số output cần thiết, hai biểu đồ **Profit vs. Price Increase** và **Demand vs. Price Increase**, cùng phần so sánh ba chiến lược **Aggressive, Balanced và Conservative**. Em cũng trình bày lại phần **Monte Carlo Profit Distribution** dưới dạng một tab có thể pop-up tương tác, cho phép người dùng chọn từng mức tăng giá và xem các trường hợp có thể xảy ra. Ngoài ra, em chỉnh các phần, **Personalized Detailed Insight**  để kết quả có giải thích rõ ràng hơn. Đặc biệt, khi profit improvement âm, em sửa cách hiển thị thành **Defensive Recommendation** để tránh gây hiểu nhầm rằng hệ thống đang khuyến nghị tăng giá như một cơ hội tăng lợi nhuận. Trong trường hợp đó, recommendation được hiểu là phương án phòng thủ phù hợp hơn dưới các giả định hiện tại.
 
-Một phần em khá chú trọng là cách trình bày ba chiến lược **Aggressive, Balanced và Conservative**. Thay vì chỉ đưa ra một phương án duy nhất, dashboard cho phép người dùng so sánh ba hướng ra quyết định khác nhau. Mỗi scenario card có expected profit, profit improvement hoặc profit gap, risk và demand loss. Cách này giúp sản phẩm nhìn giống một công cụ hỗ trợ quyết định hơn là một bài tính đơn thuần.
-
-Ngoài ra, em cũng làm phần **Monte Carlo Profit Distribution** dưới dạng modal tương tác. Người dùng có thể chọn từng mức tăng giá và xem phân phối lợi nhuận tương ứng. Phần này giúp thể hiện rủi ro trực quan hơn, vì người dùng không chỉ nhìn một con số trung bình mà còn thấy được độ bất định của kết quả.
-
-Về cuối quá trình làm, em tiếp tục chỉnh phần **Quick Personalized Insights**, **Personalized Detailed Insight** và **Market Condition Analysis** để kết quả không bị máy móc. Đặc biệt, khi profit improvement âm, em sửa lại cách hiển thị thành **Defensive Recommendation** để tránh gây hiểu nhầm rằng hệ thống đang khuyên tăng giá để chắc chắn tăng lợi nhuận. Trong trường hợp đó, recommendation được hiểu là phương án phòng thủ tốt hơn trong các giả định hiện tại.
-
-Nhìn chung, đóng góp chính của em là làm cho sản phẩm có một giao diện kết quả hoàn chỉnh, dễ hiểu và đủ thuyết phục khi demo.
+Nhìn chung, đóng góp chính của em là xây dựng giao diện kết quả hoàn chỉnh, trực quan và đủ rõ để người dùng hiểu được recommendation cũng như demo sản phẩm thuyết phục hơn.
 
 
 ## Những việc đã thực sự làm
