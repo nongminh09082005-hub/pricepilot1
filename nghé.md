@@ -101,14 +101,7 @@ Trong code, đóng góp của em có thể kiểm tra ở các hàm:
 - `build_personalized_insight(...)`
 - Phần chọn `strategy` trong `compute_result_context(form)`
 
-Các phần này thể hiện việc em không chỉ xây dựng công thức tính toán, mà còn tham gia thiết kế cách hệ thống diễn giải kết quả pricing thành các mức:
-
-- Profit
-- Demand loss
-- Risk
-- Recommendation
-
-Từ đó giúp người dùng dễ ra quyết định hơn.
+Các phần này thể hiện việc em không chỉ xây dựng công thức tính toán, mà còn tham gia thiết kế cách hệ thống diễn giải kết quả pricing thành các mức profit, demand loss, risk và recommendation để người dùng dễ ra quyết định.
 
 ---
 
