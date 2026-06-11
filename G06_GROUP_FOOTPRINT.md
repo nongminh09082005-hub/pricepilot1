@@ -308,7 +308,7 @@ Mỗi scenario có range tăng giá, expected profit, profit improvement hoặc 
 
 ### 5. Monte Carlo Profit Distribution
 
-Người dùng có thể mở modal để chọn từng mức tăng giá và xem phân phối lợi nhuận mô phỏng tại mức đó. Biểu đồ này giúp thể hiện độ bất định của kết quả và rủi ro profit thấp hơn baseline.
+Người dùng có thể mở tab Monte Carlo Profit Distribution để chọn từng mức tăng giá và xem phân phối lợi nhuận mô phỏng tại mức đó. Biểu đồ này giúp thể hiện độ bất định của kết quả và rủi ro profit thấp hơn baseline.
 
 ### 6. Personalized Detailed Insight
 
