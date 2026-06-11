@@ -44,7 +44,7 @@ Trong quá trình làm dự án, em đã thực hiện các phần sau:
 * Xây dựng ba scenario cards gồm Aggressive, Balanced và Conservative để so sánh các lựa chọn chiến lược.
 * Tạo biểu đồ **Profit vs. Price Increase** để thể hiện lợi nhuận kỳ vọng theo từng mức tăng giá.
 * Tạo biểu đồ **Demand vs. Price Increase** để thể hiện tác động của tăng giá lên nhu cầu trung bình.
-* Xây dựng modal **Monte Carlo Profit Distribution** để người dùng xem phân phối lợi nhuận tại từng mức price increase.
+* Xây dựng tab **Monte Carlo Profit Distribution** để người dùng xem phân phối lợi nhuận tại từng mức price increase.
 * Thiết kế phần **Quick Personalized Insights** để tóm tắt nhanh các điểm quan trọng của kết quả.
 * Xây dựng khu vực hiển thị **Personalized Detailed Insight**, cho phép người dùng bấm để mở phần phân tích chi tiết.
 * Thêm phần **Market Condition Analysis** để giải thích market growth, customer budget pressure, material shock impact, net market effect và material inflation.
