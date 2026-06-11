@@ -4,9 +4,7 @@
 
 ## 1. Vai trò trong dự án
 
-Trong dự án **PricePilot**, em đóng vai trò là **M1**, phụ trách phần **Economic Logic & Pricing Model**.
-
-Phần việc của em là xây dựng logic kinh tế phía sau app, tức là xác định khi doanh nghiệp thay đổi giá bán thì nhu cầu, chi phí và lợi nhuận sẽ thay đổi như thế nào.
+Trong dự án **PricePilot**, em đóng vai trò là **M1**, phụ trách phần **Economic Logic & Pricing Model**. Phần việc của em là xây dựng logic kinh tế phía sau app, tức là xác định khi doanh nghiệp thay đổi giá bán thì nhu cầu, chi phí và lợi nhuận sẽ thay đổi như thế nào.
 
 Bên cạnh đó, em tập trung vào việc xây dựng các công thức chính của mô hình, đặc biệt là:
 
