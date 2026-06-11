@@ -1,4 +1,4 @@
-### **Individual Footprint**
+### Individual Footprint
 
 **Họ và tên:**
 **Nguyễn Mai Anh**
