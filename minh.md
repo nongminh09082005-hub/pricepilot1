@@ -190,7 +190,8 @@ Loading screen được dùng khi hệ thống đang chạy simulation. Phần n
 
 <img width="1631" height="754" alt="result1" src="https://github.com/user-attachments/assets/839b04c8-a65b-4f72-ad3b-b5e5948fe03c" />
 <img width="1656" height="841" alt="result2" src="https://github.com/user-attachments/assets/fc37cdfb-377f-4f05-a880-274474cbc3e2" />
-<img width="1920" height="1080" alt="result3" src="https://github.com/user-attachments/assets/7320ae44-4108-4774-bb9d-6cc1bc7fcc39" />
+<img width="1595" height="812" alt="result3" src="https://github.com/user-attachments/assets/d1680add-6f1c-4703-84cd-127e77739225" />
+
 
 Trang output là phần quan trọng nhất trong đóng góp của em. Đây là nơi hiển thị recommendation, KPI cards, biểu đồ, scenario cards và phần phân tích chi tiết. Phần này giúp biến kết quả mô phỏng thành một dashboard trực quan để người dùng có thể hiểu và ra quyết định.
 
