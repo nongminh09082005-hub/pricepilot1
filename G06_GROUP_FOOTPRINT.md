@@ -340,21 +340,13 @@ Nếu chỉ dùng một kịch bản cố định, sản phẩm sẽ chỉ cho r
 
 Nhờ đó, web không chỉ hiển thị expected profit, mà còn cho thấy average demand, demand loss và probability of lower profit. Điều này giúp người dùng không chỉ biết phương án nào có lợi nhuận kỳ vọng tốt hơn, mà còn hiểu được mức độ rủi ro trước khi ra quyết định.
 
-### 3. Chọn Flask single-file MVP
+### 3. 3. Chọn ba chiến lược Aggressive, Balanced và Conservative
 
-Nhóm triển khai sản phẩm bằng Flask trong một file Python duy nhất. Cách này giúp nhóm tập trung vào logic mô phỏng và giao diện dashboard mà không làm cấu trúc kỹ thuật quá phức tạp. Dù frontend và backend nằm chung file, sản phẩm vẫn có đầy đủ phần nhập liệu, xử lý backend và hiển thị kết quả.
+Thay vì chỉ đưa ra một mức tăng giá duy nhất, nhóm chọn trình bày ba chiến lược: Aggressive, Balanced và Conservative. Lý do là trong thực tế, mỗi doanh nghiệp có mức chấp nhận rủi ro khác nhau.
 
-### 4. Chọn Monte Carlo simulation
+Aggressive phù hợp với doanh nghiệp muốn tối đa hóa lợi nhuận kỳ vọng, Balanced là phương án chính để cân bằng giữa profit, demand loss và risk, còn Conservative phù hợp với doanh nghiệp muốn bảo vệ nhu cầu và giảm rủi ro. Cách chia này giúp sản phẩm giống một công cụ hỗ trợ quyết định hơn là một phép tính một chiều.
 
-Nhóm chọn Monte Carlo vì các yếu tố thị trường như demand growth, budget pressure, material shock và material inflation đều có tính bất định. Thay vì chỉ tính một kết quả cố định, Monte Carlo cho phép mô phỏng nhiều khả năng khác nhau và đo lường rủi ro downside.
 
-### 5. Chọn ba chiến lược Aggressive, Balanced, Conservative
-
-Ba chiến lược giúp người dùng không chỉ thấy một con số duy nhất, mà có thể so sánh các hướng ra quyết định khác nhau. Điều này phù hợp với thực tế quản trị, vì mỗi doanh nghiệp có mức chịu rủi ro khác nhau.
-
-### 6. Thêm defensive recommendation
-
-Nhóm thêm logic defensive recommendation để tránh gây hiểu nhầm khi profit improvement âm. Nếu không có kịch bản nào thật sự tốt hơn baseline, hệ thống sẽ nói rõ đây là phương án phòng thủ trong điều kiện giả định hiện tại, không phải khuyến nghị tăng giá để chắc chắn tăng lợi nhuận.
 
 
 
