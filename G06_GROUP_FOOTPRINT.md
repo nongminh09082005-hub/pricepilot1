@@ -327,18 +327,12 @@ Sản phẩm tạo một phần phân tích chi tiết gồm:
 
 ### 1. Chọn vấn đề để thực hiện bài và chọn đối tượng mục tiêu
 
-Ý tưởng ban đầu của nhóm là xây dựng một web app hỗ trợ doanh nghiệp ra quyết định về giá bán sản phẩm. Tuy nhiên, khi phát triển ý tưởng, nhóm nhận ra rằng bài toán pricing chỉ thật sự phù hợp nếu đặt trong một ngành có mức độ cạnh tranh tương đối cao, nơi doanh nghiệp không thể tự do tăng giá mà không quan tâm đến phản ứng của khách hàng, nhu cầu thị trường và đối thủ cạnh tranh.
+Ý tưởng ban đầu của nhóm là xây dựng một web app hỗ trợ doanh nghiệp ra quyết định về giá bán sản phẩm. Tuy nhiên, khi phát triển ý tưởng này, nhóm nhận ra rằng bài toán khuyến nghị giá không thể áp dụng phù hợp cho mọi ngành. Để mô hình có ý nghĩa, ngành được chọn cần có mức độ cạnh tranh đủ cao và không bị chi phối bởi một doanh nghiệp lớn duy nhất. Nếu thị trường bị một doanh nghiệp lớn dominate, quyết định giá sẽ phụ thuộc nhiều vào quyền lực thị trường, thương hiệu hoặc vị thế dẫn đầu, khiến việc mô phỏng phản ứng của demand và rủi ro khi tăng giá trở nên kém phù hợp.
 
-Nếu chọn một ngành có một hoặc một vài doanh nghiệp lớn chi phối thị trường, quyết định giá có thể phụ thuộc nhiều vào sức mạnh thương hiệu, vị thế thị trường hoặc quyền lực định giá. Trong bối cảnh đó, một mô hình hỗ trợ khuyến nghị giá dựa trên cost, demand, elasticity và risk sẽ khó phản ánh đúng tình huống của các doanh nghiệp nhỏ hơn.
-
-Vì vậy, nhóm quyết định chọn các doanh nghiệp vừa và nhỏ trong ngành gia công cơ khí làm đối tượng mục tiêu. Nhóm doanh nghiệp này thường phải cạnh tranh bằng giá, chất lượng, tiến độ giao hàng và quan hệ khách hàng. Họ cũng chịu ảnh hưởng rõ từ chi phí nguyên vật liệu, chi phí nhân công, chi phí cố định và biến động nhu cầu. Do đó, mỗi quyết định tăng giá đều cần được cân nhắc kỹ giữa mục tiêu bảo vệ lợi nhuận và rủi ro mất đơn hàng.
-
-Bên cạnh đó, các doanh nghiệp gia công cơ khí vừa và nhỏ thường không có nhiều công cụ phân tích pricing chuyên sâu. Việc báo giá trong thực tế có thể dựa nhiều vào kinh nghiệm, chi phí đầu vào hoặc phản ứng của khách hàng quen. Vì vậy, nhóm cho rằng một công cụ mô phỏng đơn giản, dễ nhập dữ liệu và dễ đọc kết quả sẽ phù hợp với nhu cầu của nhóm người dùng này.
-
-Từ định hướng đó, PricePilot được xây dựng để hỗ trợ doanh nghiệp nhập dữ liệu chi phí, nhu cầu, dữ liệu giá trong quá khứ và các giả định thị trường. Sau đó, sản phẩm mô phỏng nhiều mức tăng giá khác nhau và trình bày kết quả dưới dạng dashboard, giúp người dùng so sánh lợi nhuận kỳ vọng, mức mất nhu cầu và rủi ro lợi nhuận thấp hơn hiện tại trước khi ra quyết định.
+Vì vậy, nhóm chọn các doanh nghiệp vừa và nhỏ trong ngành gia công cơ khí làm đối tượng mục tiêu. Nhóm doanh nghiệp này đáp ứng tốt các điều kiện trên: thị trường có tính cạnh tranh, các doanh nghiệp thường không có quyền lực định giá quá lớn, và quyết định tăng giá có thể ảnh hưởng trực tiếp đến khả năng giữ đơn hàng. Trong bối cảnh đó, một công cụ hỗ trợ mô phỏng tác động của việc tăng giá lên lợi nhuận, nhu cầu và rủi ro sẽ phù hợp hơn với nhu cầu thực tế của người dùng.
 
 
-### 2. 2. Vì sao chọn Monte Carlo simulation
+### 2. Vì sao chọn Monte Carlo simulation
 
 Nhóm chọn Monte Carlo simulation vì bài toán định giá trong PricePilot không phải là một bài toán có kết quả chắc chắn. Khi doanh nghiệp quyết định tăng giá, kết quả cuối cùng không chỉ phụ thuộc vào mức giá mới, mà còn phụ thuộc vào nhiều yếu tố thị trường có tính bất định như tăng trưởng nhu cầu, áp lực ngân sách của khách hàng, biến động nguyên vật liệu và lạm phát chi phí.
 
