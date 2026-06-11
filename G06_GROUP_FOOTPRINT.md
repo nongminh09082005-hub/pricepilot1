@@ -366,15 +366,15 @@ Nhóm thấy sản phẩm làm tốt ở một số điểm sau:
 
 ### 1. Giao diện dashboard rõ ràng
 
-Trang result dashboard được tổ chức theo logic ra quyết định: top recommendation, KPI, biểu đồ, scenario comparison và detailed insight. Cách trình bày này giúp người dùng không chỉ xem số liệu mà còn hiểu được ý nghĩa của kết quả.
+Trang result dashboard được thiết kế theo logic ra quyết định: top recommendation, KPI, biểu đồ, scenario comparison và detailed insight. Cách trình bày này giúp người dùng không chỉ xem số liệu mà còn hiểu được ý nghĩa của kết quả.
 
 ### 2. Có mô phỏng rủi ro thay vì chỉ tính lợi nhuận trung bình
 
-Sản phẩm không chỉ tính expected profit, mà còn tính probability of lower profit. Đây là điểm quan trọng vì trong pricing decision, một phương án có lợi nhuận kỳ vọng cao nhưng rủi ro quá lớn có thể không phù hợp.
+Sản phẩm không chỉ tính expected profit, mà còn tính probability of lower profit. Đây là điểm quan trọng vì khi đưa ra quyết định về giá bán, một phương án có lợi nhuận kỳ vọng cao nhưng rủi ro quá lớn có thể không phù hợp.
 
 ### 3. Có so sánh nhiều chiến lược
 
-Việc chia thành Aggressive, Balanced và Conservative giúp người dùng nhìn được nhiều lựa chọn. Sản phẩm không ép người dùng chỉ theo một phương án, mà cho họ cơ sở để cân nhắc theo mức độ chấp nhận rủi ro.
+Việc chia thành Aggressive, Balanced và Conservative giúp người dùng có nhiều lựa chọn. Sản phẩm của nhóm không ép người dùng chỉ theo một phương án, mà cho họ cơ sở để cân nhắc theo mức độ chấp nhận rủi ro.
 
 ### 4. Có Personalized Detailed Insight
 
