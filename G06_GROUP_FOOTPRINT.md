@@ -272,7 +272,7 @@ Increase price by X%
 No fully profitable scenario found under current assumptions.
 ```
 
-### 2. KPI cards
+### 2. Các chỉ số chính
 
 Các chỉ số chính bao gồm:
 
