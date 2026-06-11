@@ -153,7 +153,6 @@ Các bằng chứng đóng góp của em tập trung vào phần giao diện web
 
 * File chính: **pricepilot.py**
 * Link web demo: **https://pricepiloot.onrender.com/**
-* Module phụ trách chính: **M5 – Web & Result Display**
 
 ### 1. Trang Intro
 
