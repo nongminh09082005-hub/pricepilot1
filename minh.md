@@ -45,7 +45,6 @@ Trong quá trình làm dự án, em đã thực hiện các phần sau:
 * Xây dựng tab **Monte Carlo Profit Distribution** để người dùng xem phân phối lợi nhuận tại từng mức price increase.
 * Thiết kế phần **Quick Personalized Insights** để tóm tắt nhanh các điểm quan trọng của kết quả.
 * Xây dựng khu vực hiển thị **Personalized Detailed Insight**, cho phép người dùng bấm để mở phần phân tích chi tiết.
-* Thêm phần **Market Condition Analysis** để giải thích market growth, customer budget pressure, material shock impact, net market effect và material inflation.
 * Chỉnh logic hiển thị khi profit improvement âm, chuyển từ cách nói “profit improvement” sang hướng “defensive adjustment” hoặc “profit gap vs current” cho hợp lý hơn.
 * Thêm các nút điều hướng như Run Again, Try Again, Download Report và View Full Personalized Analysis.
 * Chỉnh CSS, màu sắc, spacing, layout, hover effect và responsive design để giao diện nhìn rõ ràng hơn khi demo.
@@ -99,9 +98,9 @@ Em trình bày biểu đồ lợi nhuận kỳ vọng theo từng mức tăng gi
 
 Em trình bày biểu đồ nhu cầu trung bình theo từng mức tăng giá. Đây là phần quan trọng vì tăng giá không chỉ ảnh hưởng đến profit mà còn có thể làm giảm số lượng đơn hàng.
 
-### 6. Monte Carlo Profit Distribution Modal
+### 6. Monte Carlo Profit Distribution Tab
 
-Em xây dựng phần pop-up/modal để người dùng chọn từng mức price increase và xem phân phối lợi nhuận tương ứng. Phần này giúp kết quả Monte Carlo dễ hiểu hơn, vì người dùng có thể thấy expected profit, lower profit probability và average demand tại từng mức giá.
+Em xây dựng phần tab có thể pop-up để người dùng chọn từng mức price increase và xem phân phối lợi nhuận tương ứng. Phần này giúp kết quả Monte Carlo dễ hiểu hơn, vì người dùng có thể thấy expected profit, lower profit probability và average demand tại từng mức giá.
 
 ### 7. Scenario Recommendation Cards
 
@@ -111,7 +110,7 @@ Em thiết kế ba thẻ so sánh chiến lược:
 * Balanced.
 * Conservative.
 
-Mỗi thẻ có expected profit, profit improvement hoặc profit gap, risk, demand loss và đoạn advisory text riêng. Sau khi kiểm tra các trường hợp profit âm, em chỉnh lại để tên scenario vẫn giữ nguyên, nhưng label “Profit improvement” sẽ đổi thành “Profit gap vs current” nếu số đó âm.
+Mỗi thẻ có expected profit, profit improvement hoặc profit gap, risk, demand loss và đoạn thông tin chú thích riêng. Sau khi kiểm tra các trường hợp profit âm, em chỉnh lại để tên scenario vẫn giữ nguyên, nhưng label “Profit improvement” sẽ đổi thành “Profit gap vs current” nếu số đó âm.
 
 ### 8. Quick Personalized Insights
 
@@ -121,33 +120,11 @@ Em xây dựng phần insight ngắn để tóm tắt nhanh ba điểm chính: p
 
 Em xây dựng khu vực hiển thị phần phân tích chi tiết cá nhân hóa. Người dùng có thể bấm **View Full Personalized Analysis** để mở hoặc đóng phần này. Phần này giúp dashboard không bị quá dài ngay từ đầu, nhưng vẫn có đủ giải thích khi cần.
 
-### 10. Market Condition Analysis
-
-Em thêm block **Market Condition Analysis** trong Personalized Detailed Insight. Block này phân tích các yếu tố thị trường:
-
-* Market growth hỗ trợ demand bao nhiêu.
-* Customer budget pressure gây áp lực lên demand bao nhiêu.
-* Material shock impact gây áp lực lên demand bao nhiêu.
-* Net market effect trước price elasticity.
-* Material inflation ảnh hưởng đến chi phí, không trực tiếp ảnh hưởng đến demand.
-* Nếu profit improvement âm, phần này giải thích recommendation đang mang tính defensive adjustment.
-
-### 11. JavaScript interaction
-
-Em viết và chỉnh các phần JavaScript cho trang kết quả, gồm:
-
-* Mở modal phân phối lợi nhuận.
-* Đóng modal.
-* Chọn price increase trong dropdown.
-* Render lại biểu đồ distribution.
-* Toggle phần detailed insight.
-* Dùng phím Escape để đóng modal.
-
-### 12. CSS, layout và responsive design
+### 10. CSS, layout và responsive design
 
 Em chỉnh bố cục dashboard theo dạng card layout, dùng grid, spacing, màu sắc và hover effect để giao diện nhìn gọn hơn. Em cũng chỉnh responsive design để giao diện vẫn dùng được trên các kích thước màn hình khác nhau.
 
-### 13. Loading screen
+### 11. Loading screen
 
 Em xây dựng và chỉnh loading screen khi hệ thống chạy simulation. Trang này có progress bar, status text, estimated time remaining
 
