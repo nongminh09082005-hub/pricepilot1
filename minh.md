@@ -165,6 +165,11 @@ Loading screen được dùng khi hệ thống đang chạy simulation. Phần n
 
 Trang output là phần quan trọng nhất trong đóng góp của em. Đây là nơi hiển thị recommendation, KPI cards, biểu đồ, scenario cards và phần phân tích chi tiết. Phần này giúp biến kết quả mô phỏng thành một dashboard trực quan để người dùng có thể hiểu và ra quyết định.
 
+### Phần của em nằm ở đâu trong workflow
+
+<img width="1698" height="926" alt="workflow" src="https://github.com/user-attachments/assets/28f88471-99ef-4b28-a2d2-0166bdd53042" />
+
+Như trong hình workflow ở đây, phần của em là cầu nối giữa cái phần trước và khách hàng. 
 
 
 ## Phần đóng góp đó kết nối thế nào với sản phẩm cuối cùng
