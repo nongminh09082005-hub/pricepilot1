@@ -430,7 +430,7 @@ Nhóm học được cách kết hợp cost structure, elasticity, demand change
 
 ### 4. Học cách thiết kế dashboard
 
-Nhóm học cách sắp xếp kết quả theo thứ tự quan trọng: recommendation trước, KPI sau, rồi đến biểu đồ và phần giải thích chi tiết.
+Nhóm học cách sắp xếp kết quả theo thứ tự một cách logic: recommendation trước, KPI sau, rồi đến biểu đồ và phần giải thích chi tiết.
 
 ### 5. Học cách giải thích model
 
