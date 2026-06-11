@@ -353,7 +353,13 @@ Thay vì chỉ đưa ra một mức tăng giá duy nhất, nhóm chọn trình b
 
 Aggressive phù hợp với doanh nghiệp muốn tối đa hóa lợi nhuận kỳ vọng, Balanced là phương án chính để cân bằng giữa profit, demand loss và risk, còn Conservative phù hợp với doanh nghiệp muốn bảo vệ nhu cầu và giảm rủi ro. Cách chia này giúp sản phẩm giống một công cụ hỗ trợ quyết định hơn là một phép tính một chiều.
 
+### 5. Chọn defensive recommendation khi kết quả không tốt hơn hiện tại
 
+Trong quá trình test sản phẩm, nhóm gặp trường hợp mức tăng giá được khuyến nghị vẫn có profit thấp hơn current baseline. Nếu dashboard vẫn hiển thị như một “profit opportunity” bình thường, người dùng có thể hiểu sai rằng hệ thống đang khuyến nghị tăng giá để chắc chắn tăng lợi nhuận.
+
+Vì vậy, nhóm thêm cách hiển thị Defensive Recommendation. Khi profit improvement âm, hệ thống sẽ giải thích rằng không có kịch bản nào thật sự tốt hơn hiện tại dưới các giả định đang nhập. Trong trường hợp đó, recommendation được hiểu là phương án phòng thủ hoặc phương án ít rủi ro hơn trong bối cảnh bất lợi, chứ không phải một cơ hội tăng lợi nhuận chắc chắn.
+
+Lựa chọn này giúp sản phẩm trung thực hơn với kết quả mô phỏng và làm dashboard dễ giải thích hơn khi demo.
 
 ## Điểm nhóm thấy làm tốt
 
