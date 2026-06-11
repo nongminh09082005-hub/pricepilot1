@@ -179,9 +179,8 @@ Trang input là nơi người dùng nhập dữ liệu chi phí, baseline busine
 
 Ảnh minh chứng:
 
-```markdown
-![Loading screen](images/loading-screen.png)
-```
+<img width="1920" height="859" alt="loading" src="https://github.com/user-attachments/assets/5bac4f01-baba-4a3a-9eeb-b8448e118e3a" />
+
 
 Loading screen được dùng khi hệ thống đang chạy simulation. Phần này có progress bar, status text, estimated time remaining và phần “Did you know?”. Em thêm và chỉnh phần này để luồng demo mượt hơn, thay vì người dùng bấm chạy mô phỏng rồi chuyển trang quá đột ngột.
 
@@ -189,9 +188,9 @@ Loading screen được dùng khi hệ thống đang chạy simulation. Phần n
 
 Ảnh minh chứng:
 
-```markdown
-![Output screen](images/output-screen.png)
-```
+<img width="1631" height="754" alt="result1" src="https://github.com/user-attachments/assets/839b04c8-a65b-4f72-ad3b-b5e5948fe03c" />
+<img width="1656" height="841" alt="result2" src="https://github.com/user-attachments/assets/fc37cdfb-377f-4f05-a880-274474cbc3e2" />
+<img width="1920" height="1080" alt="result3" src="https://github.com/user-attachments/assets/7320ae44-4108-4774-bb9d-6cc1bc7fcc39" />
 
 Trang output là phần quan trọng nhất trong đóng góp của em. Đây là nơi hiển thị recommendation, KPI cards, biểu đồ, scenario cards và phần phân tích chi tiết. Phần này giúp biến kết quả mô phỏng thành một dashboard trực quan để người dùng có thể hiểu và ra quyết định.
 
