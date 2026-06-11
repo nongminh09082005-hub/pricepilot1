@@ -90,7 +90,8 @@ simulation\_df \= pd.DataFrame(simulation\_rows)
 
 - Ảnh Technical Flow của nhóm:
 
-![][image1]
+<img width="1672" height="941" alt="technicalflow" src="https://github.com/user-attachments/assets/3ae57dc8-081f-4549-818d-40d8a16c07a5" />
+
 
 5. **Phần đóng góp đó kết nối thế nào với sản phẩm cuối cùng**
 
