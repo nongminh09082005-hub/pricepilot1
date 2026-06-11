@@ -93,10 +93,6 @@ Phần KPI cards giúp người dùng nắm nhanh tình hình tổng quan của 
 
 Em cũng chỉnh cách đặt label, cách chia card và cách hiển thị số liệu để dashboard dễ đọc hơn khi demo.
 
-### 3. KPI Cards
-
-Em xây dựng các thẻ KPI để chuyển kết quả mô hình thành thông tin dễ đọc. Các KPI gồm current base price, current expected profit, recommended range, expected profit, best single increase, probability of lower profit, average demand, demand loss và số lần simulation.
-
 ### 4. Profit vs. Price Increase Chart
 
 Em trình bày biểu đồ lợi nhuận kỳ vọng theo từng mức tăng giá. Biểu đồ này giúp người dùng thấy mức tăng giá nào tạo expected profit cao hơn, thay vì chỉ nhìn một con số recommendation.
