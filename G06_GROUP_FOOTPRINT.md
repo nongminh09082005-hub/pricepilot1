@@ -331,8 +331,15 @@ Sản phẩm tạo một phần phân tích chi tiết gồm:
 
 Vì vậy, nhóm chọn các doanh nghiệp vừa và nhỏ trong ngành gia công cơ khí làm đối tượng mục tiêu. Nhóm doanh nghiệp này đáp ứng tốt các điều kiện trên: thị trường có tính cạnh tranh, các doanh nghiệp thường không có quyền lực định giá quá lớn, và quyết định tăng giá có thể ảnh hưởng trực tiếp đến khả năng giữ đơn hàng. Trong bối cảnh đó, một công cụ hỗ trợ mô phỏng tác động của việc tăng giá lên lợi nhuận, nhu cầu và rủi ro sẽ phù hợp hơn với nhu cầu thực tế của người dùng.
 
+### 2. Vì sao chọn price elasticity of demand làm economic logic của bài?
 
-### 2. Vì sao chọn Monte Carlo simulation
+Nhóm chọn price elasticity of demand vì bài toán chính của PricePilot là xem việc tăng giá sẽ ảnh hưởng thế nào đến nhu cầu. Khi doanh nghiệp tăng giá, demand thường sẽ giảm, nhưng giảm nhiều hay ít còn tùy vào mức độ nhạy cảm của khách hàng với giá.
+
+Price elasticity giúp thể hiện đúng ý này. Nếu elasticity cao, khách hàng nhạy cảm với giá hơn, nên chỉ cần tăng giá một chút thì demand có thể giảm mạnh. Nếu elasticity thấp, khách hàng ít nhạy cảm hơn, doanh nghiệp có thể tăng giá mà không mất quá nhiều đơn hàng.
+
+Trong PricePilot, elasticity được tính từ dữ liệu cũ của doanh nghiệp, gồm giá cũ, giá mới, nhu cầu cũ và nhu cầu mới. Nhờ vậy, phần tính demand không chỉ dựa trên cảm tính, mà có một logic kinh tế rõ ràng để ước lượng demand ở các mức tăng giá khác nhau.
+
+### 3. Vì sao chọn Monte Carlo simulation?
 
 Nhóm chọn Monte Carlo simulation vì bài toán định giá trong PricePilot không phải là một bài toán có kết quả chắc chắn. Khi doanh nghiệp quyết định tăng giá, kết quả cuối cùng không chỉ phụ thuộc vào mức giá mới, mà còn phụ thuộc vào nhiều yếu tố thị trường có tính bất định như tăng trưởng nhu cầu, áp lực ngân sách của khách hàng, biến động nguyên vật liệu và lạm phát chi phí.
 
@@ -340,13 +347,11 @@ Nếu chỉ dùng một kịch bản cố định, sản phẩm sẽ chỉ cho r
 
 Nhờ đó, web không chỉ hiển thị expected profit, mà còn cho thấy average demand, demand loss và probability of lower profit. Điều này giúp người dùng không chỉ biết phương án nào có lợi nhuận kỳ vọng tốt hơn, mà còn hiểu được mức độ rủi ro trước khi ra quyết định.
 
-### 3. Chọn ba chiến lược khuyến nghị khách hàng: Aggressive, Balanced và Conservative
+### 4. Chọn ba chiến lược khuyến nghị khách hàng: Aggressive, Balanced và Conservative
 
 Thay vì chỉ đưa ra một mức tăng giá duy nhất, nhóm chọn trình bày ba chiến lược: Aggressive, Balanced và Conservative. Lý do là trong thực tế, mỗi doanh nghiệp có mức chấp nhận rủi ro khác nhau.
 
 Aggressive phù hợp với doanh nghiệp muốn tối đa hóa lợi nhuận kỳ vọng, Balanced là phương án chính để cân bằng giữa profit, demand loss và risk, còn Conservative phù hợp với doanh nghiệp muốn bảo vệ nhu cầu và giảm rủi ro. Cách chia này giúp sản phẩm giống một công cụ hỗ trợ quyết định hơn là một phép tính một chiều.
-
-
 
 
 
