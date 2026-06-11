@@ -190,6 +190,7 @@ Loading screen được dùng khi hệ thống đang chạy simulation. Phần n
 
 <img width="1631" height="754" alt="result1" src="https://github.com/user-attachments/assets/839b04c8-a65b-4f72-ad3b-b5e5948fe03c" />
 <img width="1656" height="841" alt="result2" src="https://github.com/user-attachments/assets/fc37cdfb-377f-4f05-a880-274474cbc3e2" />
+<img width="1181" height="763" alt="result4" src="https://github.com/user-attachments/assets/38e4f909-4485-4988-96a7-b311763c0722" />
 <img width="1595" height="812" alt="result3" src="https://github.com/user-attachments/assets/d1680add-6f1c-4703-84cd-127e77739225" />
 
 
