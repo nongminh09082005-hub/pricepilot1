@@ -169,9 +169,9 @@ Trang intro là màn hình đầu tiên của sản phẩm. Phần này giới t
 
 Ảnh minh chứng:
 
-```markdown
-![Input page](images/input-page.png)
-```
+<img width="1834" height="864" alt="Screenshot (3288)" src="https://github.com/user-attachments/assets/e995c17e-d1e4-4903-8dd8-61df5f025ae3" />
+<img width="1889" height="867" alt="Screenshot (3289)" src="https://github.com/user-attachments/assets/f10f901f-137f-480d-bc97-168efb87338a" />
+
 
 Trang input là nơi người dùng nhập dữ liệu chi phí, baseline business, historical price-demand data, market uncertainty ranges và số lần Monte Carlo simulation. Em đóng góp vào cách tổ chức form thành các nhóm thông tin để người dùng nhập dữ liệu theo trình tự dễ hiểu hơn.
 
