@@ -278,10 +278,10 @@ Các chỉ số chính bao gồm:
 
 * Current base price.
 * Current expected profit.
-* Recommended range.
+* Recommended price increase range 
 * Expected profit.
-* Best single increase.
-* Profit improvement hoặc profit gap vs current.
+* Best single price increase.
+* Profit improvement hoặc profit gap so với current profit.
 * Probability of lower profit.
 * Average demand.
 * Average demand loss.
