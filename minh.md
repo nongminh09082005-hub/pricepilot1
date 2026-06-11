@@ -224,11 +224,9 @@ Nói cách khác, phần đóng góp của em là cầu nối giữa kết quả
 
 ## Điều cá nhân học được
 
-Qua phần việc này, em học được rằng một sản phẩm phân tích dữ liệu không chỉ cần mô hình đúng, mà còn cần giao diện đủ rõ để người dùng hiểu và tin vào kết quả.
+Em học được thêm khá nhiều kiến thức về lập trình web, gần như bắt đầu từ con số 0. Trước khi làm dự án, em chưa hiểu rõ một trang web được tạo ra và hoạt động như thế nào. Sau quá trình làm PricePilot, em hiểu hơn vai trò của HTML, CSS, JavaScript và Python trong một web app. Cụ thể, em học được HTML dùng để tạo cấu trúc trang web, CSS dùng để thiết kế giao diện, màu sắc, bố cục và hiệu ứng,... Bên cạnh đó, em cũng hiểu thêm về cách chuyển đổi các dữ liệu tính toán để trình bày cho khách hàng xem
 
-Em học được cách trình bày dữ liệu tài chính theo hướng ra quyết định. Ví dụ, không nên chỉ hiển thị expected profit, mà cần đặt nó cạnh downside risk, demand loss và recommendation range. Khi nhìn các chỉ số này cùng nhau, người dùng mới có thể trả lời được câu hỏi: nên tăng giá bao nhiêu, lợi ích là gì và rủi ro là gì.
-
-Ngoài ra, em học thêm về cách kết hợp **Flask, HTML, CSS, JavaScript và Plotly** trong một web app. Em hiểu hơn cách backend truyền kết quả sang giao diện, cách render biểu đồ, cách tạo modal tương tác và cách tổ chức layout để dashboard dễ đọc hơn.
+Em học được cách trình bày một dashboard sao cho người dùng dễ hiểu. Một trang kết quả không nên chỉ đưa ra thật nhiều số liệu, mà cần biết chọn chỉ số quan trọng, đặt chúng ở đúng vị trí và giải thích theo logic ra quyết định. Ví dụ, recommendation cần được đặt ở đầu trang, các KPI cần được tách thành từng card, còn biểu đồ và insight cần hỗ trợ người dùng hiểu vì sao hệ thống đưa ra kết quả đó. Qua dự án này, em nhận ra rằng làm web không chỉ là làm cho giao diện đẹp, mà còn là làm cho thông tin trở nên rõ ràng, dễ đọc và có ích cho người dùng cuối.
 
 Một điều quan trọng nữa là em học được rằng cách diễn đạt trong giao diện ảnh hưởng rất nhiều đến cách người dùng hiểu sản phẩm. Khi profit improvement âm, nếu vẫn gọi đó là profit opportunity thì sẽ sai về mặt ý nghĩa. Vì vậy, em phải chỉnh lại wording thành defensive adjustment để dashboard phản ánh đúng logic của mô hình.
 
