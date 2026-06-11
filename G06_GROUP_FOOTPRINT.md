@@ -464,7 +464,7 @@ Có thể tính elasticity theo từng nhóm khách hàng, từng loại sản p
 
 ### 6. Nên giữ dashboard đơn giản
 
-Dù model có thể phức tạp, giao diện người dùng nên giữ rõ ràng. Người dùng cần hiểu recommendation, risk và demand impact trước, sau đó mới xem các phân tích sâu hơn.
+Dù model có thể phức tạp, giao diện người dùng nên đơn giản và rõ ràng. Người dùng cần hiểu recommendation, risk và demand impact trước, sau đó mới xem các phân tích sâu hơn.
 
 ### 7. Nên test sản phẩm trên môi trường deploy sớm
 
