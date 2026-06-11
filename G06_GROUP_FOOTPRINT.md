@@ -217,13 +217,13 @@ Chỉ số này giúp người dùng thấy downside risk, không chỉ thấy l
 
 Hệ thống chia kết quả thành ba chiến lược:
 
-**Aggressive**
+**Aggressive:**
 Chiến lược ưu tiên lợi nhuận kỳ vọng cao nhất trong các khoảng giá được kiểm tra. Phương án này có thể tạo upside cao hơn, nhưng thường đi kèm demand loss và downside risk lớn hơn.
 
-**Balanced**
+**Balanced:**
 Chiến lược chính của sản phẩm. Balanced cố gắng chọn mức tăng giá có lợi nhuận kỳ vọng tốt, đồng thời vẫn kiểm soát demand loss và probability of lower profit. Đây là phương án được dùng làm top recommendation.
 
-**Conservative**
+**Conservative:**
 Chiến lược ưu tiên giữ nhu cầu ổn định và giảm rủi ro. Conservative phù hợp khi doanh nghiệp lo ngại mất đơn hàng hoặc khách hàng nhạy cảm với giá.
 
 ### 7. Defensive recommendation
@@ -340,7 +340,7 @@ Nếu chỉ dùng một kịch bản cố định, sản phẩm sẽ chỉ cho r
 
 Nhờ đó, web không chỉ hiển thị expected profit, mà còn cho thấy average demand, demand loss và probability of lower profit. Điều này giúp người dùng không chỉ biết phương án nào có lợi nhuận kỳ vọng tốt hơn, mà còn hiểu được mức độ rủi ro trước khi ra quyết định.
 
-### 3. 3. Chọn ba chiến lược Aggressive, Balanced và Conservative
+### 3. Chọn ba chiến lược khuyến nghị khách hàng: Aggressive, Balanced và Conservative
 
 Thay vì chỉ đưa ra một mức tăng giá duy nhất, nhóm chọn trình bày ba chiến lược: Aggressive, Balanced và Conservative. Lý do là trong thực tế, mỗi doanh nghiệp có mức chấp nhận rủi ro khác nhau.
 
